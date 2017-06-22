@@ -2,6 +2,7 @@
 
 * [Introduction](README.md)
 * [Hilu](hilu/README.md) 
-* [Siirto](siirto/README.md) 
+* [Siirto](siirto/README.md)
+* [Swish](swish/README.md)
 * [Web payments](web-payments/README.md) 
 * [Mobile payments](mobile-payments/README.md) 
