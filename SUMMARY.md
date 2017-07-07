@@ -6,3 +6,4 @@
 * [Swish](swish/README.md)
 * [Web payments](web-payments/README.md) 
 * [Mobile payments](mobile-payments/README.md) 
+* [Data protection](data-protection/README.md) 
