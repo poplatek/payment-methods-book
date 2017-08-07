@@ -1,3 +1,2 @@
 ## Hilu
-Hilu is a payment methods for events.
-
+Hilu is a payment method for events and other special purpose situations.
