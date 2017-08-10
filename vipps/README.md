@@ -8,9 +8,22 @@ Vipps was launched in 2015 and it reached 1 million users in a matter of months.
 
 Vipps is available for Android, Apple and Microsoft phones.
 
+Vipps was launched by DNB and TCS (Tata).
+
+## Expansion
+
+Vipps already has solutions for in-app, e-commerce and invoice and is planning to launch in-store solutions in 2017.
+
 ## Owner
 
-Vipps is owned by the largest financial concern in Norway, DNB. DNB has grown through fusions to be the 72nd largest bank in the world. It's largest owners are the state (34%), DNB Savings Bank Foundation (9%) and a Norwegian pension fund, Folketrygdfondet (~6%).
+Vipps was owned by the largest financial concern in Norway, DNB. DNB has grown through fusions to be the 72nd largest bank in the world. It's largest owners are the state (34%), DNB Savings Bank Foundation (9%) and a Norwegian pension fund, Folketrygdfondet (~6%).
+
+After Vipps won in the Norwegian market the ownership was set up like so:
+ 1. DNB 52%
+ 2. SpareBank 1 Alliance 25%
+ 3. the independent savings banks 12%
+ 4. the Eika Alliance 10%
+ 5. Sparebanken Møre 1%.
 
 ## Pricing
 
@@ -27,3 +40,4 @@ View the full pricing scheme from Vipps: [Vipps (priser)](https://www.vipps.no/p
 [Vipps (Wikipedia)](https://en.wikipedia.org/wiki/Vipps)
 [Largest 100 banks in the world (2015)](https://www.snl.com/InteractiveX/Article.aspx?cdid=A-33361429-13866)
 [Folketrygdfondet](https://no.wikipedia.org/wiki/Folketrygdfondet)
+[Norwegian banks join DNB to make Vipps the ‘single mobile wallet’ for customers](https://www.nfcworld.com/2017/02/14/350165/norwegian-banks-join-dnb-make-vipps-single-mobile-wallet-customers/)
