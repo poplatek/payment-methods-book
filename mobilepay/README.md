@@ -34,6 +34,12 @@ Customers of all Finnish banks can use the application. DB has invited all Fenno
 
 Finnish Nordea Bank is in collaboration with MobilePay in Denmark and Norway.
 
+DB has stated that it is following the Finnish solution, Siirto, but has not joined it. DB said that MobilePay basically has almost all of the features already that the Finnish Siirto would be offering.
+
+# Weaknesses
+
+MobilePay has a delay in money transfers. In the evenings and over weekend it takes at least one day for the money to be transferred to the target account. Also, MobilePay is not a bank account to bank account transfer system and transfers money from a credit card to a bank account, instead.
+
 # Size
 
 In Denmark has more than 3.6 million downloads in the Nordics and more than 27 000 companies are using MobilePay out of which 4 800 are web shops.
@@ -55,4 +61,5 @@ https://en.wikipedia.org/wiki/MobilePay
 https://fi.wikipedia.org/wiki/MobilePay
 https://www.mobilepay.dk/da-dk/pages/the-story-in-english.aspx
 https://www.danskebank.fi/fi-fi/tietoa-danske-bankista/media/Tiedotteet/Pages/Danske-Bank-kutsuu-kaikki-pohjoismaiset-pankit-mukaan-MobilePay-yhteistyohon-.aspx
+http://www.hs.fi/paivanlehti/07032017/art-2000005116588.html
 
