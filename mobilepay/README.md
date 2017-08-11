@@ -13,7 +13,7 @@ MobilePay has:
 - solutions for small to medium size companies
 - solutions for big companies
 - a solution for a web store
-- a solutoin for mobile payment
+- a solution for mobile payment
 - a new terminal for cards and mobile devices
 - a solution for fundraising
 
