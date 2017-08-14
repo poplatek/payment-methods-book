@@ -24,6 +24,28 @@ MobilePay offers:
 - loyalty programs for large chains
 - WeShare solution
 
+# Brick & Mortar Use Case:
+
+## Device Setup:
+
+Clerk:
+  - POS Cash Register
+  - MobilePay wireless device
+
+Customer:
+  - mobile phone w/MobilePay mobile app
+
+## Purchase
+
+- Clerk inputs sales price into POS cash register
+- Customer presents their mobile phone to the MobilePay wireless device
+- Purchase amount is presented to the customer on the Mobile phone screen
+- Customer chooses the payment card they want to use from a drop down menu on the Mobile phone screen (this step is probably optional)
+- Customer swipes to accept the payment
+- Customer receives the purchase receipt to the Mobile phone screen
+
+See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
+
 # Goals
 
 The stated goal of MobilePay is to provide a leading solution for the Nordic markets and to find a way to collaborate with the Swedish Swish. A long term goal of being able to make payments between Swish and MobilePay has been stated.
