@@ -1,20 +1,45 @@
+
+TODO: make sure that the diff payment methods that the NETS platform supports are actually supported by the Dankort mobile because this is not necessarily so.
+
+
 #Dankort Mobile
 
 White label mobile wallet solution. Allows for branding for a local bank so that the customer loyalty stays local.
 
-# Use Case:
+Dankort Mobile seems to support 4 different payment methods: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
-Setup:
-- Clerk:
- - cash register
- - a payment terminal
- - bluetooth device
-- Customer:
- - mobile phone w/Dankort mobile app
+# Brick & Mortar Use Case 1: Standalone payment terminal w/NFC support
 
-# Payment:
+## Device Setup:
 
-## Bird's eye view
+Clerk:
+  - a standalone payment terminal supporting NFC
+Customer:
+  - mobile phone w/Dankort mobile app
+
+## Purchase use case
+
+- Clerk inputs sales price
+- Customer pays via NFC tap using the mobile phone
+
+This payment methods is similar to normal NFC payment and in all likelihood requires a PIN entry every now and then and is not this simple every time.
+
+See video: https://www.youtube.com/watch?v=w5s4_mp5I2k
+
+# Brick & Mortar Use Case 2: Regular POS cash register w/an additional Bluetooth reader
+
+# Device Setup:
+
+Clerk:
+  - cash register
+  - a payment terminal
+  - bluetooth device
+Customer:
+  - mobile phone w/Dankort mobile app
+
+## Purchase
+
+### Bird's eye view
 
 - Cash register inputs a sales price
 - The payment terminal presents the price to the customer
@@ -22,7 +47,7 @@ Setup:
 - The customer accepts the purchase via a click on the mobile phone or via inputing PIN code
 - Purchase completes
 
-## Details
+### Details
 
 The basic arrangement is to have POS cash register, a payment terminal and a new bluetooth device to
 support the Dankort Mobile. The idea is to integrate this new payment method into existing hardware
