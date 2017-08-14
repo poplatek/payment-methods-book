@@ -1,5 +1,68 @@
 #Dankort Mobile
 
+White label mobile wallet solution. Allows for branding for a local bank so that the customer loyalty stays local.
+
+# Use Case:
+
+Setup:
+- Clerk:
+ - cash register
+ - a payment terminal
+ - bluetooth device
+- Customer:
+ - mobile phone w/Dankort mobile app
+
+# Payment:
+
+## Bird's eye view
+
+- Cash register inputs a sales price
+- The payment terminal presents the price to the customer
+- The customer presents the mobile phone to the bluetooth device
+- The customer accepts the purchase via a click on the mobile phone or via inputing PIN code
+- Purchase completes
+
+## Details
+
+The basic arrangement is to have POS cash register, a payment terminal and a new bluetooth device to
+support the Dankort Mobile. The idea is to integrate this new payment method into existing hardware
+and infrastructure.
+
+There are four devices involved in the purchase and it is important to consider how they interact
+with one another during the purchase to present a use case to the customer that is easy to use.
+
+In other words, what the payment terminal, bluetooth device and mobile phone are presenting at
+different times during the purchase process is important. It is very easy to make such a complicated
+setup confusing to the customer.
+
+Dankort mobile solved the problem so that the bluetooth device has just one light/led that signals
+the state of processing to the clerk and to the customer. The payment terminal also communicates
+the purchase state via its on-screen messages and directs the customer's attention to the right
+place.
+
+Overall the purchase transaction seems to proceed thusly, in more detail:
+
+1. The purchase price is input via the POS cash register
+2. The payment terminal presents the purchase price and the bluetooth device signals its readiness via the blue light.
+3. The mobile phone is presented to the bluetooth device.
+4. The bluetooth device signals that it has communicated w/the phone via a beep and also via turning its light yellow.
+5. The payment terminal displays screens about the proceeding of the payment to keep the customer informed.
+6. The payment terminal displays a screen that prompts the user to continue the purchase via their mobile phone
+7. The mobile phone displays a screen containing the purchase price and a green button for accepting the purchase
+8. The customer accepts the payment via clicking the green button
+9. All the three devices signal purchase success:
+ - The bluetooth device beeps and turns its led/light green
+ - The phone displays a purchase success screen
+ - The payment terminal display a purchase success scree
+
+Pinless case can be seen from this video: https://youtu.be/PfwIbYmIhkk?t=52s
+
+The purchase case w/PIN input differs only slightly from the above sequence. Instead of presenting the customer w/a
+green button to accept the purchase a PIN input screen is presented. Before and after the PIN input the transaction
+proceeds as above. Only pressing the green button on the mobile phone is replaced w/a PIN input screen. The purchase
+is accepted via inputing the PIN digits and pressing OK. There is no separate acceptance screen in the use case.
+
+PIN input use case can be seen from here: https://youtu.be/PfwIbYmIhkk?t=1m11s
 
 # Tech
 
@@ -31,6 +94,8 @@ Now supported for member banks, planned support for regional banks in Denmark.
 # Support
 
 Customers of more than 60 banks belonging to The Bokis Partnership have become the first in Denmark to be offered a mobile payment service for Dankort
+
+Planned coupon support, may be supported by some implementations.
 
 # Parties
 
