@@ -81,6 +81,10 @@ Customer:
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
+# QR-codes
+
+The app user can create their own QR-code via a generator here: https://stadel.dk/MobilePay_QR_kode_generator - however, apparently MobilePay Business version seems to be required.
+
 # Goals
 
 The stated goal of MobilePay is to provide a leading solution for the Nordic markets and to find a way to collaborate with the Swedish Swish. A long term goal of being able to make payments between Swish and MobilePay has been stated.
@@ -119,9 +123,20 @@ http://www.hs.fi/paivanlehti/07032017/art-2000005116588.html
 - mobilepayssa lienee e-kuitti
 - MobilePay MyShop
  - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-myshop.aspx
- - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-point-of-sale.aspx
+ - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-point-of-sale.aspx <- maksutapakuvaus
+
+			Nopea tapa maksaa ostokset kassalla
+
+			Yhdistä tunnistin kassajärjestelmääsi ja uusi maksutapa on käytössä:
+
+					Asiakkaasi avaa MobilePay-sovelluksen älypuhelimessaan ja kirjautuu henkilökohtaisella tunnuksellaan. 
+					Asiakas skannaa kassajärjestelmässäsi olevan QR-koodin tai laittaa puhelimensa MobilePay-tunnistimen lähelle.. 
+					Asiakas hyväksyy maksun pyyhkäisemällä puhelimen kuvaruudulle näkyviin tulevasta nuolesta.
+
  - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-appswitch.aspx
  - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-online.aspx
  - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-myshop.aspx
+
+https://stadel.dk/MobilePay_QR_kode_generator
 
 
