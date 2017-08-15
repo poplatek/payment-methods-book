@@ -36,13 +36,17 @@ Also, it may be that the iOS/Apple phone solution differs from the Android solut
 
 The Dankort mobile solution is a white label wallet solution for mobile payments. White labeling is supported in order to be able to have the local banks use their logos in the apps to ensure customer loyalty. Overall the Dankort Mobile seems to be based on extending the existing solutions the customers already have at their sales locations.
 
-View the specifics about the use cases from here: [Dankort](../dankort/dankortmobil/README.md)
+View the specifics about the use cases from here: [Dankort Mobil](../dankort/dankortmobil/README.md)
 
 ## Danske Mobilepay
 
-Danske Mobilepay seems to be based on new school thinking. The App comes first.
+Danske Mobilepay birck and mortar solution seems to on one hand depend on the new Mobilepay reader and on the other hand on mobile to mobile communications that allow for the merchant's mobile phone to mimic the actions of a standalone terminal.
 
+QR-code is supported and can be used as an alternative to the MobilePay reader.
 
+XXX
+
+View the specifics about the use cases from here: [Danske MobilePay](../mobilepay/README.md)
 
 ## Swedish Swish
 
