@@ -228,4 +228,9 @@ Android App (Beta): 1,7/5
 # Refs
 https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/
 https://www.nets.eu/Media-and-press/news/Pages/Dankort-goes-mobile.aspx
+https://en.wikipedia.org/wiki/Host_card_emulation
+https://itunes.apple.com/dk/app/dankort-app/id1213303296?mt=8
+https://play.google.com/store/apps/details?id=eu.nets.dankort&hl=da
+https://www.youtube.com/watch?v=PN8ARuIjbE8
+https://www.youtube.com/watch?v=w5s4_mp5I2k
 
