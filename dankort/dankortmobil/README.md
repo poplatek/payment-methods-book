@@ -21,7 +21,34 @@ Dankort app advertises that you can either feed the PIN-code traditionally or us
 
 Video: https://www.youtube.com/watch?v=QGRo3I668hU
 
-# Brick & Mortar Use Case 1: SA/Mobile/NFC
+# Brick & Mortar Use Case 1: Lock Screen Prototype?
+
+Tommy Jessen released a mystical mobile payment prototype video on his channel 28th of December, 2016, where he seems to demonstrate a mobile payment via a mobile phone and an Atos Yomani development terminal. The payment was made so that the mobile phone had its screen lock on. He also claimed that this is a Dankort solution in the video description.
+
+Please view the video yourself: https://www.youtube.com/watch?v=FSLH9PvwnDU
+
+As it stands, this prototype probably used NFC to communicate between the mobile phone and the Yomani terminal. The other likely candidate would be Bluetooth, but does Atos Yomani support Bluetooth? It does have NFC.
+
+There is also no clear way to know whether the application on the mobile phone was somehow pre-started and whether there was some kind of sign-in procedure like a PIN-code or a finger print to active the application into a mode where the payment was in fact possible.
+
+What we can see from the video, for what it's worth, is that the use case seemed to proceed in the following manner:
+
+Clerk:
+- input a sales price into the Yomani terminal in standalone mode or via a some kind of POS device to initiante the purchase
+- The customer turns on the display on the mobile phone
+- The customer presents/taps the mobile phone to the terminal
+- The mobile phone presents the purchase price as a notification on the locked mobile phone screen
+- The customer clicks the notification on the mobile phone screen
+- The mobile phone presents a menu for accepting the payment on the mobile phone screen
+- The customer accepts the payment w/a click of a menu item (Godkand)
+- The mobile phone displays the payment progress screen
+- the mobile phone displays the purchase success screen
+
+It could be that the prototype has been made so that it uses some kind of API for integrated solutions in the app. It could even be a third programme that is used in addition to the regular mobile payment app and the Yomani terminal software. Or the solution could be integrated into the mobile payment application. The video is less than informative on quite a few matters.
+
+There is, indeed, no sure way to even be sure that this is a Dankort mobile solution, but so it is claimed.
+
+# Brick & Mortar Use Case 2: SA/Mobile/NFC
 
 ## Device Setup:
 
@@ -39,7 +66,7 @@ This payment methods is similar to normal NFC payment and in all likelihood requ
 
 See video: https://www.youtube.com/watch?v=w5s4_mp5I2k
 
-# Brick & Mortar Use Case 2: SA/Mobile/Bluetooth
+# Brick & Mortar Use Case 3: SA/Mobile/Bluetooth
 
 ## Device Setup:
 
@@ -69,7 +96,7 @@ Alternatively:
 
 See video: https://www.youtube.com/watch?v=w5s4_mp5I2k
 
-# Brick & Mortar Use Case 3: POS & Terminal/Mobile/Bluetooth
+# Brick & Mortar Use Case 4: POS & Terminal/Mobile/Bluetooth
 
 N.B. This use case is based on a different Bluetooth reader than the ones above.
 
@@ -135,7 +162,7 @@ screen in the use case. The limit for PIN entry is 200 DKK, circa $30.
 
 PIN input use case can be seen from here: https://youtu.be/PfwIbYmIhkk?t=1m11s
 
-# Brick & Mortar Use Case 4: SA/Mobile/Bluetooth: Check-in/Check-out
+# Brick & Mortar Use Case 5: SA/Mobile/Bluetooth: Check-in/Check-out
 
 ## Device Setup:
 
@@ -155,7 +182,7 @@ This use case looks like it could use a bit more details about how the whole thi
 
 See video: https://youtu.be/w5s4_mp5I2k?t=1m57s
 
-# Brick & Mortar Use Case 5: SA/Mobile/QR-code
+# Brick & Mortar Use Case 6: SA/Mobile/QR-code
 
 The upside of the QR-code solution is that it does not require an additional Bluetooth device. It is a bit more clunky as a use case, however.
 
