@@ -8,7 +8,7 @@ NETS advertises five ways to pay via Dankort mobile using a mobile phone:
 1. NFC tap
 2. Bluetooth tap
 3. Bluetooth tap w/PIN entry
-4. Check in/Check out solution using Bluetooth tap
+4. Bluetooth Check in/Check out solution
 5. QR-code
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
@@ -57,7 +57,11 @@ Alternatively:
 - Customer inputs a four-digit PIN-code
 - All devices signal purchase success
 
+See video: https://www.youtube.com/watch?v=w5s4_mp5I2k
+
 # Brick & Mortar Use Case 3: POS & Terminal/Mobile/Bluetooth
+
+N.B. This use case is based on a different Bluetooth reader than the ones above.
 
 # Device Setup:
 
@@ -120,6 +124,52 @@ is accepted via inputing the PIN digits and pressing OK. There is no separate ac
 
 PIN input use case can be seen from here: https://youtu.be/PfwIbYmIhkk?t=1m11s
 
+# Brick & Mortar Use Case 4: SA/Mobile/Bluetooth: Check-in/Check-out
+
+## Device Setup:
+
+Clerk:
+  - a (standalone) payment terminal
+  - bluetooth reader
+Customer:
+  - mobile phone w/Dankort mobile app
+
+## Purchase use case
+
+- Customer checks in via tapping their mobile phone to the bluetooth reader
+- Customer packs bags
+- Clerk confirms purchase
+
+This use case looks like it could use a bit more details about how the whole thing works.
+
+See video: https://youtu.be/w5s4_mp5I2k?t=1m57s
+
+# Brick & Mortar Use Case 5: SA/Mobile/QR-code
+
+The upside of the QR-code solution is that it does not require an additional Bluetooth device. It is a bit more clunky as a use case, however.
+
+## Device Setup:
+
+Clerk:
+  - a (standalone) payment terminal w/QR-code support software
+Customer:
+  - mobile phone w/Dankort mobile app
+
+## Purchase use case:
+
+- Clerk inputs a sales price
+- Customer communicates to the clerk that they want to use the QR-code payment method
+- Customer enabled QR-code from the mobile phone app
+- The clerk clicks a button on the payment terminal to enable the QR-code payment mode
+- The payment terminal displays the QR-code for the payment
+- The customer moves the mobile phone camera so that it can read the QR-code from the payment terminal screen
+- The payment terminal beeps so signal approval of the QR-code communication
+- All devices signal purchase success
+
+PIN entry may be needed in some purchases.
+
+See video: https://www.youtube.com/watch?v=w5s4_mp5I2k&feature=youtu.be&t=2m36s
+
 # Tech
 
 Looks like the an existing Dankort is stored into the mobile phone via a mobile wallet.
@@ -159,3 +209,4 @@ Partnership between Nets and Japanese card issuer JCB in April to enable the lau
 # Refs
 https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/
 https://www.nets.eu/Media-and-press/news/Pages/Dankort-goes-mobile.aspx
+
