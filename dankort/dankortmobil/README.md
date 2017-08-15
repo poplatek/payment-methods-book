@@ -26,10 +26,10 @@ Customer:
 
 ## Purchase use case
 
-- Clerk inputs a low value sales price
+- Clerk inputs a low value sales price (Below 200 DKK, circa $30)
 - Customer pays via NFC tap using the mobile phone
 
-This payment methods is similar to normal NFC payment and in all likelihood requires a PIN entry every now and then and is not this simple every time.
+This payment methods is similar to normal NFC payment and in all likelihood requires a PIN entry every now and then and is unlikely to be this simple every time.
 
 See video: https://www.youtube.com/watch?v=w5s4_mp5I2k
 
@@ -45,7 +45,7 @@ Customer:
 
 ## Purchase use case
 
-- Clerk inputs a low value sales price
+- Clerk inputs a low value sales price (Below 200 DKK, circa $30)
 - Customer pays via Bluetooth tap using the mobile phone
 - All devices signal purchase success:
  - The payment terminal display a purchase success screen
@@ -54,6 +54,7 @@ Customer:
 Alternatively:
 
 - Clerk inputs a high value sales price
+- Clerk inputs a high value sales price (Above 200 DKK, circa $30)
 - Customer starts via Bluetooth tap using the mobile phone
 - Dankort Mobile App presents the customer w/a PIN screen
 - Customer inputs a four-digit PIN-code
@@ -122,7 +123,8 @@ Pinless case can be seen from this video: https://youtu.be/PfwIbYmIhkk?t=52s
 The purchase case w/PIN input differs only slightly from the above sequence. Instead of presenting the customer w/a
 green button to accept the purchase a PIN input screen is presented. Before and after the PIN input the transaction
 proceeds as above. Only pressing the green button on the mobile phone is replaced w/a PIN input screen. The purchase
-is accepted via inputing the PIN digits and pressing OK. There is no separate acceptance screen in the use case.
+is accepted via inputing the PIN digits and pressing OK. There is no separate acceptance screen in the use case. The
+limit for PIN entry is 200 DKK, circa $30.
 
 PIN input use case can be seen from here: https://youtu.be/PfwIbYmIhkk?t=1m11s
 
@@ -168,7 +170,7 @@ Customer:
 - The payment terminal beeps so signal approval of the QR-code communication
 - All devices signal purchase success
 
-PIN entry may be needed in some purchases.
+PIN entry may be needed in some purchases. This is unclear ATM.
 
 See video: https://www.youtube.com/watch?v=w5s4_mp5I2k&feature=youtu.be&t=2m36s
 
