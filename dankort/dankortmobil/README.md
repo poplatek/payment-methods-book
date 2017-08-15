@@ -15,6 +15,12 @@ NETS advertises five ways to pay via Dankort mobile using a mobile phone:
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
+# PIN entry
+
+Dankort app advertises that you can either feed the PIN-code traditionally or use a finger print to do the same on the mobile phone.
+
+Video: https://www.youtube.com/watch?v=QGRo3I668hU
+
 # Brick & Mortar Use Case 1: SA/Mobile/NFC
 
 ## Device Setup:
@@ -58,6 +64,7 @@ Alternatively:
 - Customer starts via Bluetooth tap using the mobile phone
 - Dankort Mobile App presents the customer w/a PIN screen
 - Customer inputs a four-digit PIN-code
+- Customer taps the Bluetooth device again (?)
 - All devices signal purchase success
 
 See video: https://www.youtube.com/watch?v=w5s4_mp5I2k
@@ -112,7 +119,7 @@ Overall the purchase transaction seems to proceed thusly, in more detail:
 5. The payment terminal displays screens about the proceeding of the payment to keep the customer informed.
 6. The payment terminal displays a screen that prompts the user to continue the purchase via their mobile phone
 7. The mobile phone displays a screen containing the purchase price and a green button for accepting the purchase
-8. The customer accepts the payment via clicking the green button
+8. The customer accepts the payment via clicking the green button // is re-tapping the bluetooth device needed?
 9. All the three devices signal purchase success:
  - The bluetooth device beeps and turns its led/light green
  - The phone displays a purchase success screen
@@ -123,8 +130,8 @@ Pinless case can be seen from this video: https://youtu.be/PfwIbYmIhkk?t=52s
 The purchase case w/PIN input differs only slightly from the above sequence. Instead of presenting the customer w/a
 green button to accept the purchase a PIN input screen is presented. Before and after the PIN input the transaction
 proceeds as above. Only pressing the green button on the mobile phone is replaced w/a PIN input screen. The purchase
-is accepted via inputing the PIN digits and pressing OK. There is no separate acceptance screen in the use case. The
-limit for PIN entry is 200 DKK, circa $30.
+is accepted via inputing the PIN digits and pressing OK or possibly via finger print. There is no separate acceptance
+screen in the use case. The limit for PIN entry is 200 DKK, circa $30.
 
 PIN input use case can be seen from here: https://youtu.be/PfwIbYmIhkk?t=1m11s
 
@@ -233,4 +240,6 @@ https://itunes.apple.com/dk/app/dankort-app/id1213303296?mt=8
 https://play.google.com/store/apps/details?id=eu.nets.dankort&hl=da
 https://www.youtube.com/watch?v=PN8ARuIjbE8
 https://www.youtube.com/watch?v=w5s4_mp5I2k
+https://www.youtube.com/watch?v=QGRo3I668hU
+
 
