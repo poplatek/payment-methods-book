@@ -1,6 +1,8 @@
 # MobilePay
 
-MobilePay is an application for iOS, Android and Windows phones that allows for payments using a mobile phone number instead of a bank account number. A credit card and a bank account number is bound to the mobile phone number during the registration process. During paying the credit card is charged and the targeted bank account acts as the receiver of the payment.
+MobilePay is an application for iOS, Android and Windows phones that allows for payments using a mobile phone number instead of a bank account number or a credit card at hand.
+A credit card and a bank account number is needed during registration and bound to the mobile phone number during the registration process.
+During paying the credit card, which is not physically part of the payment process, is charged and the targeted bank account acts as the receiver of the payment.
 
 It is used mainly in Denmark but also to a lesser extent in Finland and Norway.
 
@@ -16,6 +18,7 @@ MobilePay has:
 - a solution for mobile payment
 - a new terminal for cards and mobile devices
 - a solution for fundraising
+- a way to mimic payment terminal payments via two mobile phones
 
 MobilePay offers:
 - a solution for paying invoices via MobilePay Invoice
@@ -26,13 +29,19 @@ MobilePay offers:
 
 MobilePay Weaknesses:
 - delay in money transfer
-- credit card to bank account only
+- credit card to bank account only transfer of funds
 
 MobilePay has a delay in money transfers. In the evenings and over weekend it takes at least one day for the money to be transferred to the target account. Also, MobilePay is not a bank account to bank account transfer system and transfers money from a credit card to a bank account, instead.
 
-# Brick & Mortar Use Case: MyShop - 2 mobile phones
+# Use Cases
 
-## Device Setup:
+# General
+
+The way the MobilePay app has been implemented it requires the app user to take out their phone for payment and then start the app and then enter the PIN code for the application before it can be used.
+
+## Brick & Mortar Use Case: MyShop - 2 mobile phones
+
+### Device Setup:
 
 Clerk:
   - MobilePay MyShop App
@@ -41,7 +50,7 @@ Clerk:
 Customer:
   - mobile phone w/MobilePay mobile app
 
-## Purchase
+### Purchase
 
 - Clerk inputs sales price into their mobile phone MobilePay MyShop App
 - Customer starts their phone app and signs in via a PIN code
@@ -50,9 +59,9 @@ Customer:
 
 See video: http://publisher.qbrick.com/Embed.aspx?mcid=357FCD1A059B2C01
 
-# Brick & Mortar Use Case: ...
+## Brick & Mortar Use Case: ...
 
-## Device Setup:
+### Device Setup:
 
 Clerk:
   - POS Cash Register
@@ -61,7 +70,7 @@ Clerk:
 Customer:
   - mobile phone w/MobilePay mobile app
 
-## Purchase
+### Purchase
 
 - Clerk inputs sales price into POS cash register
 - Customer presents their mobile phone to the MobilePay wireless device
