@@ -1,14 +1,19 @@
 
-TODO: make sure that the diff payment methods that the NETS platform supports are actually supported by the Dankort mobile because this is not necessarily so.
-
-
 #Dankort Mobile
 
 White label mobile wallet solution. Allows for branding for a local bank so that the customer loyalty stays local.
 
-Dankort Mobile seems to support 4 different payment methods: https://www.youtube.com/watch?v=PN8ARuIjbE8
+NETS advertises five ways to pay via Dankort mobile using a mobile phone:
 
-# Brick & Mortar Use Case 1: Standalone payment terminal w/NFC support
+1. NFC tap
+2. Bluetooth tap
+3. Bluetooth tap w/PIN entry
+4. Check in/Check out solution using Bluetooth tap
+5. QR-code
+
+See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
+
+# Brick & Mortar Use Case 1: SA/Mobile/NFC
 
 ## Device Setup:
 
@@ -19,19 +24,46 @@ Customer:
 
 ## Purchase use case
 
-- Clerk inputs sales price
+- Clerk inputs a low value sales price
 - Customer pays via NFC tap using the mobile phone
 
 This payment methods is similar to normal NFC payment and in all likelihood requires a PIN entry every now and then and is not this simple every time.
 
 See video: https://www.youtube.com/watch?v=w5s4_mp5I2k
 
-# Brick & Mortar Use Case 2: Regular POS cash register w/an additional Bluetooth reader
+# Brick & Mortar Use Case 2: SA/Mobile/Bluetooth
+
+## Device Setup:
+
+Clerk:
+  - a (standalone) payment terminal
+  - bluetooth reader
+Customer:
+  - mobile phone w/Dankort mobile app
+
+## Purchase use case
+
+- Clerk inputs a low value sales price
+- Customer pays via Bluetooth tap using the mobile phone
+9. All the three devices signal purchase success:
+ - The bluetooth device beeps and turns its led/light green
+ - The phone displays a purchase success screen
+ - The payment terminal display a purchase success screen
+
+Alternatively:
+
+- Clerk inputs a high value sales price
+- Customer starts via Bluetooth tap using the mobile phone
+- Dankort Mobile App presents the customer w/a PIN screen
+- Customer inputs a four-digit PIN-code
+- Transaction completes
+
+# Brick & Mortar Use Case 4: POS & Terminal/Mobile/Bluetooth
 
 # Device Setup:
 
 Clerk:
-  - cash register
+  - POS (cash register)
   - a payment terminal
   - bluetooth device
 Customer:
@@ -49,7 +81,7 @@ Customer:
 
 ### Details
 
-The basic arrangement is to have POS cash register, a payment terminal and a new bluetooth device to
+The basic arrangement is to have a POS (cash register), a payment terminal and a new bluetooth device to
 support the Dankort Mobile. The idea is to integrate this new payment method into existing hardware
 and infrastructure.
 
@@ -78,7 +110,7 @@ Overall the purchase transaction seems to proceed thusly, in more detail:
 9. All the three devices signal purchase success:
  - The bluetooth device beeps and turns its led/light green
  - The phone displays a purchase success screen
- - The payment terminal display a purchase success scree
+ - The payment terminal display a purchase success screen
 
 Pinless case can be seen from this video: https://youtu.be/PfwIbYmIhkk?t=52s
 
