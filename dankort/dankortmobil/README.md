@@ -1,7 +1,9 @@
 
 #Dankort Mobile
 
-White label mobile wallet solution. Allows for branding for a local bank so that the customer loyalty stays local.
+Dankort Mobile is a white label mobile wallet solution. It allows for branding for a local bank so that the customer loyalty stays local.
+Dankort Mobile is mostly based on a bluetooth reader that is needed as an added device to the payment system. However, NFC payments
+can also be made via the mobile phone and even QR-code payments are supported even though they seem a bit clunky use-case-wise.
 
 NETS advertises five ways to pay via Dankort mobile using a mobile phone:
 
@@ -172,11 +174,15 @@ See video: https://www.youtube.com/watch?v=w5s4_mp5I2k&feature=youtu.be&t=2m36s
 
 # Tech
 
-Looks like the an existing Dankort is stored into the mobile phone via a mobile wallet.
+Looks like the an existing Dankort is stored into the mobile phone via a mobile wallet. The service is available through the mobile apps offered by each of the supporting banks and works on Android handsets through host card emulation (HCE) and on iOS through a Bluetooth acceptance device at the point of sale.
 
-The service is available through the mobile apps offered by each of the supporting banks and works on Android handsets through host card emulation (HCE) and on iOS through a Bluetooth acceptance device at the point of sale.
+Like when using NFC the purchases below 200 DKK ($30) do not require PIN entry. This is what it says on the Dankort app page for Android and there is nothing been said about random selection. Perhaps this really is true and there won't be any PIN queries made below the price of 200 DKK.
 
-Like when using NFC the purchases below 200 DKK ($30) do not require PIN entry.
+You do not need your Dankort credit/debit card to be with you when you pay via the mobile app.
+
+# Security
+
+At least the Android app does not store the card number and when you cancel the card it will also be automatically cancelled from the app, also.
 
 # Pricing
 
@@ -185,6 +191,7 @@ Seems free for at least card holders.
 # Requirements
 
 - Dankort
+- A supported mobile phone
 - Wallet App from one of the Bokis member banks
 - A device combination at the sales point that supports Dankort Mobile. See use cases.
 
@@ -205,6 +212,16 @@ Planned coupon support, may be supported by some implementations.
 # Parties
 
 Partnership between Nets and Japanese card issuer JCB in April to enable the launch of a mobile payment service for Dankort in Denmark. A partnership with Spire Payments was announced later in the year.
+
+# App downloads
+
+iOS/Apple: https://itunes.apple.com/dk/app/dankort-app/id1213303296?mt=8
+Android: https://play.google.com/store/apps/details?id=eu.nets.dankort&hl=da
+
+# Ratings:
+
+iOS/Apple App: 4+
+Android App (Beta): 1,7/5
 
 # Refs
 https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/
