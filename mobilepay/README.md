@@ -104,12 +104,17 @@ See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
 # Locked screen purchases
 
-MobilePay has launched a new payment type that allows for paying from locked screens of mobile phones in April 2017. The maximum purchase price for this type of payment is 250 DKK. For amounts above 250 DKK the customer must log onto the MobilePay app where the amount is automatically shown and can be accepted with a swipe.
+MobilePay has launched a new payment type that allows for paying from locked screens of mobile phones in April 2017.
 
-Danske Bank says that this new payment method works with almost all mobile phone types.
+The other party in the payment is a classic card payment terminal. At least Verifone terminals are supported and probably also at least Ingenico terminals. Danke states that their goal was to provide a solution that requires only the mobile phone and a classic payment terminal because this is what their business customers were asking for.
 
+The other goal was to provide a payment method that does not require the customer to sign into the MobilePay app.
 
-See press release: https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
+Danske Bank says that this new payment method works with almost all mobile phone types and that 90% of all Danish smartphones are supported.
+
+Black screen and open screen purchases are not yet supported. Only locked screen is. However, Danske is saying that they are developing solutions for these.
+
+The maximum purchase price for this type of payment is 250 DKK and purchases up to this limit can be done 5 times before the next purchase will be asked to be done from the actual Mobile App. For amounts above 250 DKK the customer must log onto the MobilePay app where the amount is automatically shown and can be accepted with a swipe.
 
 # Mobile OS Support
 
@@ -190,3 +195,4 @@ https://stadel.dk/MobilePay_QR_kode_generator
 https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
 
 
+See press release: https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
