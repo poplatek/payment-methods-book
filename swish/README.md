@@ -24,7 +24,7 @@ Swish is effectively a Sweden and SEK only solution for mobile payment. It is th
 
 - Sweden only
 - SEK only
-- the setup looks a little complicated w/two apps incl. Bank ID App
+- The mobile to mobile payment process seems rather complex due to the requirement of having both the Swish and the Bank ID app on the phone, acting as master at different times of the payment process.
 
 Due to depending on the Swedish BankID Swish is effectively Swedish only albeit this is precisely why it supports instant payments across all participating banks and showing payee names during payment.
 
@@ -81,6 +81,7 @@ To use the service, one needs
 - Swedish mobile Bank ID
 - a Swedish bank account
 - a smartphone
+- a smartphone number
 - the Swish app
 - Swedish Bank ID app
 
