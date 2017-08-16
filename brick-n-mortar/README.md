@@ -2,11 +2,32 @@
 
 ## About
 
-The specific use cases can be found from the respective pages of this book that explain the technology for MobilePay, Vipps, Swish, Dankort mobile and so on. This page is for discussion and comparison of those different ways of addressing mobile paying in brick and mortar situations.
+This page is for discussion and comparison of those different ways of addressing mobile paying in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for MobilePay, Vipps, Swish, Dankort mobile and so on.
+
+## Feasibility of the new mobile payment methods for brick-and-mortar situations
+
+The new mobile payment methods vary but the most commonly used ways of communicating seem to be:
+
+1. Bluetooth
+2. NFC
+3. QR-code
+4. Internet
+
+The solutions that support NFC allow for the user presenting/tapping (or double tapping) their phone to the NFC device to make a payment. Bluetooth works similarly. The QR-code solutions depend on the mobile phone camera which is used to take a photo of the QR-code that includes the payment information including but perhaps not limited to the sales price. There are also mobile to mobile solutions that depend on both mobile phones having Internet connections.
+
+The strenghts of these technologies is that they do support the payment via a mobile phone. However, there is a hassle in many of the payment methods that is not non-significant. Especially some QR-code solutions look cumbersome and this is true to an extent to almost all payment methods that depend on the mobile phones because of the needs of activating the mobile phone screen, possible using a PIN-code or a swipe to unlock the screen, starting the application if it is not already running and signing into the payment application via a PIN-code or perhaps a finger print.
+
+There seems to be methods of mitigating these problems and steps are being taken into making the purchase process less difficult on mobile devices. The newest solutions to this end seem to depend on starting the purchase from the locked mobile phone screen. There is a prototype video about this sort of payment method in the Internet and also at least Danske Bank has come out w/a MobilePay variant that actually brings this type of payment method to the market.
+
+There are also advances being made in order to allow a payment using a mobile phone from the black screen and open screen. At least MobilePay is making efforts to get one or both of these payment methods to work. The black screen means the black screen that is displayed when the phone is not in use and the open screen refers to the screen lock having been opened already but that the application has not been started.
+
+Also the support for mobile phone payment methods are getting more and more supported by the other hardware. Where it was once necessary e.g. for a MobilePay solution to have an extra Bluetooth/QR-code reader, these features are now beginning to be supported by payment terminals that look classic and ordinary. This removes the hassle of the new mobile phone payment methods that is related to the need of extra devices on the field.
+
+Overall, even if there is significant advancement in the mobile phone payment method market, there is still some progress to be made. That said, the newest setups w/locked screen payment variants used together w/the old school payment terminals that support mobile payment methods seem now to be ready for wide-scale use. They are getting the threshold of being to cumbersome to use for comfort and then all that is left is the convenience of not needing to have your credit/debit card w/you when you leave the house.
+
+The user bases are also exploding due to the honey that was given to the end-users: the apps are mostly free-of-cost to the end users and they allow for money transfer between friends as well as loaning to friends and splitting of bills. These new features along w/mostly supported instant payments on the mobile devices can clearly be attractive to the end-users.
 
 ## An Important Caveat
-
-The use cases explained in their own respective pages have the caveat that they are based on best available material of which some is meant for advertising purposes and does not therefore necessarily reflect the real world user experience.
 
 One thing that seems to be missing from lots of material is the very beginning of the mobile payment. This includes taking out the phone, perhaps opening a screen lock, starting up the application if it is not already running and then signing into the application which might take a PIN code or perhaps a finger print.
 
@@ -16,9 +37,8 @@ Whether that works only if the app has been started previously and perhaps a sig
 
 Perhaps this is Dankort Mobile prototype. Please view the video for yourself to decide: https://www.youtube.com/watch?v=FSLH9PvwnDU
 
-## Comparison table
+The use cases explained in their own respective pages have the caveat that they are based on best available material of which some is meant for advertising purposes and does not therefore necessarily reflect the real world user experience.
 
-* [Nordic Mobile Payments Brick and Mortar Comparison Spreadsheet](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods)
 
 ## About the approaches
 
@@ -44,13 +64,19 @@ View the specifics about the use cases from here: [Dankort Mobil](../dankort/dan
 
 ## Danske Mobilepay
 
-Danske Mobilepay birck and mortar solution seems to on one hand depend on the new Mobilepay reader and on the other hand on mobile to mobile communications that allow for the merchant's mobile phone to mimic the actions of a basic standalone terminal.
+Danske Mobilepay is beginning to be well supported. There are payment terminals w/bluetooth and QR-code support that can be used as a standalone payment terminals or integrated to a POS that can handle MobilePay. This means that no additional MobilePay device is needed which used to be the case.
 
-QR-code is supported and can be used as an alternative to the MobilePay reader.
+MobilePay is also out with a new locked screen purchase variant that makes low value purchases easier. They are saying that the will follow up with possibly both open screen and black screen purchase variants. There is also a setup where the clerk may use a mobile phone to receive the payment either over the Internet or via a bluetooth tap and probably also QR-code is supported.
+
+Danske MobilePay seems to have succeeded in establishing itself quite well on the mobile payments market. MobilePay allows for many of their users to use their existing credit/debit cards and bank accounts in the Nordics and no Danske Bank account/card is necessary although getting them is the only current way of getting around the weakness of the MobilePay infrastructure, which is that payments are instant only to Danske Bank accuonts.
 
 View the specifics about the use cases from here: [Danske MobilePay](../mobilepay/README.md)
 
 ## Swedish Swish
+
+## Comparison table
+
+* [Nordic Mobile Payments Brick and Mortar Comparison Spreadsheet](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods)
 
 
 
