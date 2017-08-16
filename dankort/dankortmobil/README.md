@@ -249,15 +249,17 @@ Planned coupon support, may be supported by some implementations.
 
 Partnership between Nets and Japanese card issuer JCB in April to enable the launch of a mobile payment service for Dankort in Denmark. A partnership with Spire Payments was announced later in the year.
 
-# App downloads
+# App
+
+## Downloads
 
 iOS/Apple: https://itunes.apple.com/dk/app/dankort-app/id1213303296?mt=8
 Android: https://play.google.com/store/apps/details?id=eu.nets.dankort&hl=da
 
-# Ratings:
+## Ratings:
 
+Android App (Beta): 1.7/5
 iOS/Apple App: 4+
-Android App (Beta): 1,7/5
 
 # Refs
 https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/
