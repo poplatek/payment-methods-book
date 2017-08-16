@@ -10,6 +10,43 @@ Vipps is available for Android, Apple and Microsoft phones.
 
 Vipps was launched by DNB and TCS (Tata).
 
+# Features
+
+- mobile to mobile payment
+- sending money
+- payment messages
+
+TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
+
+# Use cases
+
+# Requirements
+
+- A Norwegian national identity number
+- A Norwegian mobile number
+- A Norwegian payment card (Visa or MasterCard)
+- A Norwegian account number in any Norwegian bank
+- An email address
+- To be over 15 years old
+
+# Registration
+
+- Download the Vipps app
+- Register your phone number, identity number and name
+- Register your Visa or MasterCard and your account number
+- Add your email
+- Create a 4-digit personal code
+- optional: add your image to ease interaction with others
+
+# App
+## Download
+
+Android: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
+
+## Ratings
+
+Android: 3.1
+
 ## Expansion
 
 Vipps already has solutions for in-app, e-commerce and invoice and is planning to launch in-store solutions in 2017.
