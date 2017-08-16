@@ -1,6 +1,6 @@
 # MobilePay
 
-MobilePay is an application for iOS, Android and perhaps Windows phones that allows for payments using a mobile phone number instead of a bank account number or a credit card at hand.
+MobilePay is an application for iOS, Android and Windows phones that allows for payments using a mobile phone number instead of a bank account number or a credit card at hand.
 A credit card and a bank account number is needed during registration and bound to the mobile phone number during the registration process.
 During paying the credit card, which is not physically part of the payment process, is charged and the targeted bank account acts as the receiver of the payment.
 
@@ -16,13 +16,16 @@ MobilePay has:
 - solutions for big companies
 - a solution for a web store
 - a solution for mobile payment
-- a new terminal for cards and mobile devices
+- a new terminal for cards and mobile devices which supports Bluetooth and QR-codes
 - a solution for fundraising
 - a way to mimic payment terminal payments via two mobile phones
+- capture API allows for reservation payments
+- refund amount API allows for refunds
+- can be used to pay inside of other apps, see video: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
 
 MobilePay offers:
 - a solution for paying invoices via MobilePay Invoice
-- digital receipts
+- digital receipts, see video: publisher.qbrick.com/Embed.aspx?mcid=6D7FD2A7A6500CCE
 - a bonus system for small companies
 - loyalty programs for large chains
 - WeShare solution
@@ -40,6 +43,8 @@ MobilePay Strengths:
 # Use Cases
 
 # Registration process
+
+Registration process differs for app users and business users who are setting up a shoppe.
 
 TODO
 
@@ -69,7 +74,7 @@ Customer:
 
 - Clerk inputs sales price into their mobile phone MobilePay MyShop App
 - Customer starts their phone app and signs in via a PIN code
-- Customer presents their phone to clerk's phone
+- Customer presents their phone to clerk's phone (Bluetooth communications or QR-code)
 - Customer swipes to accept the payment
 
 See video: http://publisher.qbrick.com/Embed.aspx?mcid=357FCD1A059B2C01
@@ -98,7 +103,7 @@ See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
 # Mobile OS Support
 
-MobilePay is supported on Android and iOS at least in Finland. Windows phone support may or may not exist elsewhere.
+MobilePay is supported on Android, iOS and Windows phones.
 
 # Pricing
 
@@ -138,6 +143,11 @@ MobilePay was developed and owned by the Danish Danske Bank. It is currently bei
 # SDK
 
 * https://github.com/MobilePayDev
+* https://www.mobilepay.dk/da-dk/Developer/Pages/developer.aspx
+
+# Language
+
+REST API
 
 # Ref
 
