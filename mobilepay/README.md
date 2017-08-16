@@ -10,7 +10,6 @@ MobilePay is free for use by private individuals.
 
 # Features
 
-MobilePay has:
 - person to person payments
 - solutions for small to medium size companies
 - solutions for big companies
@@ -25,23 +24,21 @@ MobilePay has:
 - mobile to mobile payments, e.g. in a restaurant table
 - can be used to pay inside of other apps, see video: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
 - digital receipts, see video: publisher.qbrick.com/Embed.aspx?mcid=6D7FD2A7A6500CCE
-
-MobilePay offers:
 - a solution for many Nordic banks, cards and bank accounts
 - a solution for paying invoices via MobilePay Invoice
 - a bonus system for small companies
 - loyalty programs for large chains
 - WeShare solution
 
-MobilePay Weaknesses:
+## Strengths:
+- can register and use any Debit or Credit from a Finnish bank in Finland (probably similarly elsewhere) as long as the card is enabled to do Internet purchases
+- can register and use any Finnish bank account (probably similarly elsewhere)
+
+## Weaknesses:
 - delay in money transfer
 - credit card to bank account only transfer of funds
 
 MobilePay has a delay in money transfers. If the target account is in Danske Bank, the money transfer is instantanous. If not, in the evenings and over weekend it takes at least one day for the money to be transferred to the target account. Also, MobilePay is not a bank account to bank account transfer system and transfers money from a credit card to a bank account, instead.
-
-MobilePay Strengths:
-- can register and use any Debit or Credit from a Finnish bank in Finland (probably similarly elsewhere) as long as the card is enabled to do Internet purchases
-- can register and use any Finnish bank account (probably similarly elsewhere)
 
 # Use Cases
 
@@ -213,12 +210,24 @@ More then 205 million MobilePay transactions are processed yearly. 25% of these 
 
 MobilePay was developed and owned by the Danish Danske Bank. It is currently being (2017) made into a subsidiary of DB.
 
-# SDK
+# App
+
+## Download
+
+Android: https://play.google.com/store/apps/details?id=dk.danskebank.mobilepay&hl=en
+iOS: 
+
+## Ratings
+
+Android: 4.3
+iOS: 4+
+
+## SDK
 
 * https://github.com/MobilePayDev
 * https://www.mobilepay.dk/da-dk/Developer/Pages/developer.aspx
 
-# Language
+## Language
 
 REST API
 
