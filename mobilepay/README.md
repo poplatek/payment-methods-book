@@ -21,13 +21,14 @@ MobilePay has:
 - a way to mimic payment terminal payments via two mobile phones
 - capture API allows for reservation payments
 - refund amount API allows for refunds
-- can be used to pay inside of other apps, see video: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
 - locked screen purchases
 - mobile to mobile payments, e.g. in a restaurant table
+- can be used to pay inside of other apps, see video: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
+- digital receipts, see video: publisher.qbrick.com/Embed.aspx?mcid=6D7FD2A7A6500CCE
 
 MobilePay offers:
+- a solution for many Nordic banks, cards and bank accounts
 - a solution for paying invoices via MobilePay Invoice
-- digital receipts, see video: publisher.qbrick.com/Embed.aspx?mcid=6D7FD2A7A6500CCE
 - a bonus system for small companies
 - loyalty programs for large chains
 - WeShare solution
@@ -73,6 +74,10 @@ The way the MobilePay app has been implemented it requires the app user to take 
 
 ### Purchase
 
+Specific setup:
+- Verifone SA payment terminal w/a receipt printer and bluetooth support
+- A mobile phone
+
 1. The Clerk inputs clicks the green button on the SA payment terminal to initiate the sales price input
 2. The Clerk the sales price into the payment terminal
 3. The Clerk pushes the green button to declare that the sales price has been put in
@@ -89,7 +94,7 @@ The way the MobilePay app has been implemented it requires the app user to take 
 14. The mobile phone displays the purchase success screen
 15. The payment terminal prints the receipt
 
-See sample video: https://player.vimeo.com/video/203367072
+See sample video: https://player.vimeo.com/video/203367072 - it shows some of the steps mentioned above but not all, as it is an advert.
 
 ## Brick & Mortar Use Case #2: SA terminal/mobile phone - Locked screen payment
 
@@ -99,8 +104,7 @@ See sample video: https://player.vimeo.com/video/203367072
 
 ### Purchase
 
-- Clerk inputs the sales 
-
+...TODO...
 
 ## Brick & Mortar Use Case #3: MyShop - 2 mobile phones
 
