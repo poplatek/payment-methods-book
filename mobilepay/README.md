@@ -23,6 +23,7 @@ MobilePay has:
 - refund amount API allows for refunds
 - can be used to pay inside of other apps, see video: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
 - locked screen purchases
+- mobile to mobile payments, e.g. in a restaurant table
 
 MobilePay offers:
 - a solution for paying invoices via MobilePay Invoice
@@ -52,15 +53,56 @@ TODO
 # Beginning of transaction
 
 Beginnings of purchases are often omitted in advert material. In the case of Danske MobilePay you need to do the following steps to ready the phone for payments:
+
 1. Unlock the phone screen if it is locked or activate the screen otherwise, e.g. w/a button press
 2. Start the MobilePay app if it is not already running
 3. Input the MobilePay personal PIN code
+
+However, MobilePay now also supports payments from locked screen, see below.
 
 # General
 
 The way the MobilePay app has been implemented it requires the app user to take out their phone for payment and then start the app and then enter the PIN code for the application before it can be used.
 
-## Brick & Mortar Use Case: MyShop - 2 mobile phones
+
+## Brick & Mortar Use Case #1: SA terminal/mobile phone - in-app purchase case
+
+### Device Setup:
+- Clerk: payment terminal that supports MobilePay (e.g. Verifone), this means Bluetooth & QR-code support
+- Customer: phone supporting MobilePay
+
+### Purchase
+
+1. The Clerk inputs clicks the green button on the SA payment terminal to initiate the sales price input
+2. The Clerk the sales price into the payment terminal
+3. The Clerk pushes the green button to declare that the sales price has been put in
+4. The payment terminal displays the insert card screen
+5. The Customer removes black screen via a button press
+6. The Customer opens the MobilePay app
+7. The Customer inserts their MobilePay PIN-code to sign in
+8. The Customer taps the mobile phone to the payment terminal
+9. The Payment terminal displays the progress screen
+10. The mobile phone displays the sales price on the mobile phone screen and activates the swipe
+11. The customer swipes the swipe button/bar on the mobile phone to accept the payment
+12. The mobile phone displays the progress screen
+13. The payment terminal displays the purchase success screen
+14. The mobile phone displays the purchase success screen
+15. The payment terminal prints the receipt
+
+See sample video: https://player.vimeo.com/video/203367072
+
+## Brick & Mortar Use Case #2: SA terminal/mobile phone - Locked screen payment
+
+### Device Setup:
+- Clerk: payment terminal that supports MobilePay (e.g. Verifone), this means Bluetooth & QR-code support
+- Customer: phone supporting MobilePay
+
+### Purchase
+
+- Clerk inputs the sales 
+
+
+## Brick & Mortar Use Case #3: MyShop - 2 mobile phones
 
 ### Device Setup:
 
@@ -116,6 +158,19 @@ Black screen and open screen purchases are not yet supported. Only locked screen
 
 The maximum purchase price for this type of payment is 250 DKK and purchases up to this limit can be done 5 times before the next purchase will be asked to be done from the actual Mobile App. For amounts above 250 DKK the customer must log onto the MobilePay app where the amount is automatically shown and can be accepted with a swipe.
 
+The support for locked screen purchase is scheduled to take place in Finland after the summer of 2017. The limit for this purchase type amountwise will be 25 EUR in Finland.
+
+Terminal support:
+- https://go.bambora.com/dk/mobilepay
+- https://www.goappified.dk/terminal
+- http://www.verifone.dk/da/Denmark/Start/Tjenester/MobilePay/
+  - Video: https://player.vimeo.com/video/203367072
+
+Refs:
+https://www.mobilepay.dk/da-dk/Erhverv/Pages/mobilepay-terminaler.aspx
+https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
+https://www.danskebank.fi/fi-fi/tietoa-danske-bankista/media/Tiedotteet/Pages/Bambora%20ja%20MobilePay.aspx
+
 # Mobile OS Support
 
 MobilePay is supported on Android, iOS and Windows phones.
@@ -144,10 +199,9 @@ DB has stated that it is following the Finnish solution, Siirto, but has not joi
 
 In Denmark has more than 3.6 million downloads in the Nordics and more than 27 000 companies are using MobilePay out of which 4 800 are web shops.
 
-
 In Denmark MobilePay where 90% of the smartphones have the app. Danes value the app as the 2nd most important next only to Facebook.
 
-In Finland the app has been downloaded 450 000 times.
+In Finland the app has been downloaded 500 000 times. The user base has doubled in one year.
 
 More then 205 million MobilePay transactions are processed yearly. 25% of these transactions are made in shops.
 
@@ -195,4 +249,3 @@ https://stadel.dk/MobilePay_QR_kode_generator
 https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
 
 
-See press release: https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
