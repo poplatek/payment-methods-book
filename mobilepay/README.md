@@ -1,6 +1,6 @@
 # MobilePay
 
-MobilePay is an application for iOS, Android and Windows phones that allows for payments using a mobile phone number instead of a bank account number or a credit card at hand.
+MobilePay is an application for iOS, Android and perhaps Windows phones that allows for payments using a mobile phone number instead of a bank account number or a credit card at hand.
 A credit card and a bank account number is needed during registration and bound to the mobile phone number during the registration process.
 During paying the credit card, which is not physically part of the payment process, is charged and the targeted bank account acts as the receiver of the payment.
 
@@ -31,9 +31,24 @@ MobilePay Weaknesses:
 - delay in money transfer
 - credit card to bank account only transfer of funds
 
-MobilePay has a delay in money transfers. In the evenings and over weekend it takes at least one day for the money to be transferred to the target account. Also, MobilePay is not a bank account to bank account transfer system and transfers money from a credit card to a bank account, instead.
+MobilePay has a delay in money transfers. If the target account is in Danske Bank, the money transfer is instantanous. If not, in the evenings and over weekend it takes at least one day for the money to be transferred to the target account. Also, MobilePay is not a bank account to bank account transfer system and transfers money from a credit card to a bank account, instead.
+
+MobilePay Strengths:
+- can register and use any Debit or Credit from a Finnish bank in Finland (probably similarly elsewhere) as long as the card is enabled to do Internet purchases
+- can register and use any Finnish bank account (probably similarly elsewhere)
 
 # Use Cases
+
+# Registration process
+
+TODO
+
+# Beginning of transaction
+
+Beginnings of purchases are often omitted in advert material. In the case of Danske MobilePay you need to do the following steps to ready the phone for payments:
+1. Unlock the phone screen if it is locked or activate the screen otherwise, e.g. w/a button press
+2. Start the MobilePay app if it is not already running
+3. Input the MobilePay personal PIN code
 
 # General
 
@@ -81,6 +96,14 @@ Customer:
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
+# Mobile OS Support
+
+MobilePay is supported on Android and iOS at least in Finland. Windows phone support may or may not exist elsewhere.
+
+# Pricing
+
+The MobilePay app is free to use at least for now to end-user customers, that is, to the person who installs the MobilePay app to their phone as a private individual. Payments vary for business customers depending on the chosen setup and current discounts.
+
 # QR-codes
 
 The app user can create their own QR-code via a generator here: https://stadel.dk/MobilePay_QR_kode_generator - however, apparently MobilePay Business version seems to be required.
@@ -112,7 +135,13 @@ More then 205 million MobilePay transactions are processed yearly. 25% of these 
 
 MobilePay was developed and owned by the Danish Danske Bank. It is currently being (2017) made into a subsidiary of DB.
 
+# SDK
+
+* https://github.com/MobilePayDev
+
 # Ref
+
+https://mobilepay.fi/fi-fi/Pages/faq.aspx
 http://www.mobilepay.fi/fi-fi/Pages/mobilepay.aspx
 https://en.wikipedia.org/wiki/MobilePay
 https://fi.wikipedia.org/wiki/MobilePay
