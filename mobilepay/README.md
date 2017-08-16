@@ -22,6 +22,7 @@ MobilePay has:
 - capture API allows for reservation payments
 - refund amount API allows for refunds
 - can be used to pay inside of other apps, see video: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
+- locked screen purchases
 
 MobilePay offers:
 - a solution for paying invoices via MobilePay Invoice
@@ -101,6 +102,15 @@ Customer:
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
+# Locked screen purchases
+
+MobilePay has launched a new payment type that allows for paying from locked screens of mobile phones in April 2017. The maximum purchase price for this type of payment is 250 DKK. For amounts above 250 DKK the customer must log onto the MobilePay app where the amount is automatically shown and can be accepted with a swipe.
+
+Danske Bank says that this new payment method works with almost all mobile phone types.
+
+
+See press release: https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
+
 # Mobile OS Support
 
 MobilePay is supported on Android, iOS and Windows phones.
@@ -177,5 +187,6 @@ http://www.hs.fi/paivanlehti/07032017/art-2000005116588.html
  - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-myshop.aspx
 
 https://stadel.dk/MobilePay_QR_kode_generator
+https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
 
 
