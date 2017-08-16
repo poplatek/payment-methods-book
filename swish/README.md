@@ -4,7 +4,7 @@
 
 To use the service, one needs a smartphone, the safety solution mobile Bank ID, a Swedish bank account and the Swish app.
 
-Probably Sweden only due to depending on BankID.
+Sweden and SEK only due to depending on BankID.
 
 # QR support
 
