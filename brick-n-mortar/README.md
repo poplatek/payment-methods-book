@@ -70,9 +70,13 @@ View the specifics about the use cases from here: [Danske MobilePay](../mobilepa
 
 ## Swedish Swish
 
-Swish is the major mobile payment solution in Sweden. The way it depends on the Bank ID and the Swedish bank systems makes it SEK only and in effect, Sweden only. However, on the other hand, it has the capability of offering instant payment for this very setup.
+Swish is the major mobile payment solution in Sweden. The way it depends on the Bank ID and the Swedish bank systems makes it SEK only and in effect, Sweden only. However, on the other hand, it has the capability of offering instant payment for this very reason and for this reason it is also able to display the name of the payee before payment making it more robust and less prone to error.
 
-On the level of features
+On the level of implementation, the fact that the Swedish Swish is dependent on the Bank ID application is a clear minus on the level of usability. First of all in the level of registration you need to be eligible for both of these apps. Then, when in use, most of the things are done from the Swish app that then launches the Bank ID to do its part. After Bank ID processing has been done, the Swish app reappers again to take care of the rest of the transaction.
+
+This architecture hinders all of the available payment methods that Swish supports. It has this extra cumbersomeness regardless of whether you are doing a mobile to mobile payment or if, indeed, you are paying to a shoppe clerk using a QR-code. The Bank Id is always there and for the good things that it provides it is clear that it is not a good solution from the point of view of usability and use case design.
+
+View the typical use case flows from the [Swish page](../swish/README.md)
 
 ## Comparison table
 
