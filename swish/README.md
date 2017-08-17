@@ -26,7 +26,7 @@ Swish is effectively a Sweden and SEK only solution for mobile payment. It is th
 
 - Sweden only
 - SEK only
-- The mobile to mobile payment process seems rather complex due to the requirement of having both the Swish and the Bank ID app on the phone, acting as master at different times of the payment process.
+- Two obligatory apps, Swish and BankId
 
 Due to depending on the Swedish BankID Swish is effectively Swedish only albeit this is precisely why it supports instant payments across all participating banks and showing payee names during payment.
 
@@ -49,6 +49,42 @@ To use the service, one needs
 ## Registration Process
 
 ...
+
+## Use Case: Mobile payment using a QR-code
+
+### Device Setup
+### Preconditions
+
+The Merchant/Clerk-side must already know the transaction amount. This means that if we are for example
+in a traditional shoppe environment that all the bar codes from the customer's total purchase must be
+scanned.
+
+### Use Case Steps
+
+This use case step list is based on Swich QR code integration documentation, the so called "Happy Case".
+
+1. Clerk's backend calls Swish QR code generator API to request a QR-code for a purchase amount
+2. Clerk's backend receives the QR-code
+3. QR-code is displayed to the Customer.
+4. The Customer disables the black screen
+5. The Customer starts up the Swish app
+6. The Customer scans the QR code
+7. The Customer presses the “Pay” button.
+8. A signing session is initiated with Mobile BankId.
+9. Swish answers the Swish app.
+10. The Swish app switches to the BankId app.
+11. The Customer signs in BankId app.
+12. The BankId app switches back to the Swish app.
+13. The Swish app contacts Swish to execute the payment.
+14. Swish checks the outcome of the signing with BankID. The money is then transferred, in real
+time, from the consumer’s account to the company’s account.
+15. The consumer see that the payment was performed successfully in the Swish app.
+
+The consumer can view the payment in the events section “Händelser” as a sent payment in the Swish
+app.
+
+Ref:
+https://www.getswish.se/content/uploads/2015/11/Guide-Swish-QR-code-design-specification_v1.5.pdf
 
 ## Use Case: Mobile to Mobile use case with verification of payment
 
@@ -103,6 +139,13 @@ See the video: https://www.youtube.com/watch?v=px5XVOgW-tc
 
 ## QR-code support
 
+QR-code payload:
+1. The receiving mobile or Swish-number (required)
+2. The amount of the payment (optional)
+3. Payment information such as reference number or order ID. (optional)
+
+Refs:
+[Swish QR-Code integration guide](https://www.getswish.se/content/uploads/2015/11/Guide-Swish-QR-code-design-specification_v1.5.pdf)
 https://www.getswish.se/content/uploads/2017/06/QR_FAQ.pdf
 
 ## App
@@ -182,4 +225,4 @@ https://medium.com/@etiennebr/swish-the-secret-swedish-fintech-payment-company-c
 https://www.bankid.com/en/
 https://www.youtube.com/watch?v=s03Kt9uZ4l4
 https://www.youtube.com/watch?v=px5XVOgW-tc
-
+https://www.getswish.se/content/uploads/2015/11/Guide-Swish-QR-code-design-specification_v1.5.pdf
