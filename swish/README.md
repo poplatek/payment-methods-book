@@ -71,8 +71,6 @@ Precondition: The Payer has the Swish App already open, which means that they ha
 28. A processing screen appears
 29. The Payer visually confirms from a list that the payment has indeed been made
 
-Without the need to state it, it is abundantly clear that the amount of actions and steps is far from satisfactory.
-
 See the video: https://www.youtube.com/watch?v=px5XVOgW-tc
 
 # Requirements
@@ -87,7 +85,7 @@ To use the service, one needs
 
 # Registration
 
-
+TODO
 
 # QR support
 
