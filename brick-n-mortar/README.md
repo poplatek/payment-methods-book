@@ -1,5 +1,25 @@
 # Brick and mortar mobile payment methods comparison
 
+## Exec Summary
+
+Sketch/TODO:
+
+### Danske MobilePay
+
+Could be the best of the lot use-case-wise. Only hindrance is that it doesn't support instant payments to banks that are not Danske Bank.
+
+### Dankort Mobil
+
+ Has a wide array of payment methods and could be the 2nd best of the solutions behind MobilePay.
+
+### Vipps
+
+Probably excessively geared towards the local market, needs more research.
+
+### Swish
+
+The fact that it uses BankID causes many problems like being stuck on the local Swedish market as well as being able to only use SEK but it also makes the use case more cumbersome than it needs to be. For the good that it offers, binding BankID, to my mind, was a mistake now that the other ways of doing things can be seen from other players in the field. On the other hand, using BankID probably protects Swish against the other solutions by other banks. In a way it seems like they dug a ditch that hurts them but also gives them protection against their competitors.
+
 ## About
 
 This page is for discussion and comparison of different ways of addressing mobile paying in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for MobilePay, Vipps, Swish, Dankort mobile and so on.
@@ -16,7 +36,7 @@ The new mobile payment methods vary but the most commonly used ways of communica
 The solutions that support NFC allow for the user to present/tap their phone to a NFC device to make a payment. Bluetooth works similarly. The QR-code solutions depend on the mobile phone camera which is used to take a photo of the QR-code that includes the payment information including but perhaps not limited to the sales price. There are also mobile to mobile solutions that depend on both mobile phones having Internet connections.
 
 The strenghts of these technologies is that they do support the payment via a mobile phone. However, there is a hassle in many of the payment methods that is not non-significant. Especially some QR-code solutions look cumbersome and this is true to an extent to almost all payment methods that depend on the mobile phones because of the need to:
-
+Has
 1. Activate the mobile phone screen (from black screen)
 2. Unlock the screen, possibly via using a PIN-code or a swipe
 3. Start the application if it is not already running 
