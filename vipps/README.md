@@ -12,15 +12,23 @@ Vipps was launched by DNB and TCS (Tata).
 
 # Features
 
+## List of Features
+
 - mobile to mobile payment
 - sending money
 - payment messages
 
 TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 
-# Use cases
+## Strengths
 
-# Requirements
+...
+
+## Weaknesses
+
+...
+
+## Requirements
 
 - A Norwegian national identity number
 - A Norwegian mobile number
@@ -29,7 +37,12 @@ TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 - An email address
 - To be over 15 years old
 
-# Registration
+
+# Use cases
+
+## General
+
+# Registration Process
 
 - Download the Vipps app
 - Register your phone number, identity number and name
@@ -38,20 +51,80 @@ TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 - Create a 4-digit personal code
 - optional: add your image to ease interaction with others
 
-# App
-## Download
+# Use case: TODO
+## Device Setup
+## Preconditions
+## Use Case Steps
+
+# Tech
+## Locked screen purchases
+## QR-code support
+
+## App
+### Downloads
 
 Android: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 
-## Ratings
+### Ratings
 
 Android: 3.1
 
-## Expansion
+### OS support
+
+...
+
+### SDK
+
+...
+
+### Lanugage
+
+...
+
+## eCommerce
+
+## Brick and Mortar
+
+
+### VippsGO: small mobile web shop
+
+Vipps has a VippsGO solution for small stores and can be set up directly in the Vipps mobile phone application.
+It is meant for little boutiques or for e.g. associations that have a kiosk or a ...
+
+#### Requirements
+
+A Norwegian organisation number is required in addition to registration for Vipps.
+
+#### Pricing
+
+Small business: 2.25% + 39 NOK / month; 2017 no monthly payments
+Large business: 1.75% + 149 NOK / month; 2017 45 NOK / month
+
+https://www.vipps.no/vippsgo.html
+
+## Security
+
+# Business
+
+## Pricing
+
+Vipps allows for its users to do free payments between friends upto a sum of 5000 NOK (circa 534€, 2017). Other types of payments are non-free and there are different payment schemes for different situations and parties. An even amount for a transaction plus a percentage for a transaction is one scheme, another has a monthly payment plus a percentage of the full sum.
+
+View the full pricing scheme from Vipps: [Vipps (priser)](https://www.vipps.no/priser.html).
+
+## Size
 
 Vipps already has solutions for in-app, e-commerce and invoice and is planning to launch in-store solutions in 2017.
 
-## Owner
+## Future Goals & Plans
+
+...
+
+## Collaboration
+
+...
+
+## Ownership
 
 Vipps was owned by the largest financial concern in Norway, DNB. DNB has grown through fusions to be the 72nd largest bank in the world. It's largest owners are the state (34%), DNB Savings Bank Foundation (9%) and a Norwegian pension fund, Folketrygdfondet (~6%).
 
@@ -62,29 +135,9 @@ After Vipps won in the Norwegian market the ownership was set up like so:
  4. the Eika Alliance 10%
  5. Sparebanken Møre 1%.
 
-## Pricing
+## Background/History
 
-Vipps allows for its users to do free payments between friends upto a sum of 5000 NOK (circa 534€, 2017). Other types of payments are non-free and there are different payment schemes for different situations and parties. An even amount for a transaction plus a percentage for a transaction is one scheme, another has a monthly payment plus a percentage of the full sum.
-
-View the full pricing scheme from Vipps: [Vipps (priser)](https://www.vipps.no/priser.html).
-
-## VippsGO: small mobile web shop
-
-Vipps has a VippsGO solution for small stores and can be set up directly in the Vipps mobile phone application.
-It is meant for little boutiques or for e.g. associations that have a kiosk or a ...
-
-### Requirements
-
-A Norwegian organisation number is required in addition to registration for Vipps.
-
-### Pricing
-
-Small business: 2.25% + 39 NOK / month; 2017 no monthly payments
-Large business: 1.75% + 149 NOK / month; 2017 45 NOK / month
-
-https://www.vipps.no/vippsgo.html
-
-## References
+# References
 
 [Vipps](https://www.vipps.no/)
 [Vipps (priser)](https://www.vipps.no/priser.html)

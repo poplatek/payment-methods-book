@@ -1,5 +1,7 @@
 # MobilePay
 
+## About
+
 MobilePay is an application for iOS, Android and Windows phones that allows for payments using a mobile phone number instead of a bank account number or a credit card at hand.
 A credit card and a bank account number is needed during registration and bound to the mobile phone number during the registration process.
 During paying the credit card, which is not physically part of the payment process, is charged and the targeted bank account acts as the receiver of the payment.
@@ -9,6 +11,8 @@ It is used mainly in Denmark but also to a lesser extent in Finland and Norway.
 MobilePay is free for use by private individuals.
 
 # Features
+
+## List of Features
 
 - person to person payments
 - solutions for small to medium size companies
@@ -30,25 +34,27 @@ MobilePay is free for use by private individuals.
 - loyalty programs for large chains
 - WeShare solution
 
-## Strengths:
+## Strengths
 - can register and use any Debit or Credit from a Finnish bank in Finland (probably similarly elsewhere) as long as the card is enabled to do Internet purchases
 - can register and use any Finnish bank account (probably similarly elsewhere)
 
-## Weaknesses:
+## Weaknesses
 - delay in money transfer
 - credit card to bank account only transfer of funds
 
 MobilePay has a delay in money transfers. If the target account is in Danske Bank, the money transfer is instantanous. If not, in the evenings and over weekend it takes at least one day for the money to be transferred to the target account. Also, MobilePay is not a bank account to bank account transfer system and transfers money from a credit card to a bank account, instead.
 
-# Use Cases
-
-# Registration process
-
-Registration process differs for app users and business users who are setting up a shoppe.
+## Requirements
 
 TODO
 
-# Beginning of transaction
+# Use Cases
+
+## General
+
+The way the MobilePay app has been implemented it requires the app user to take out their phone for payment and then start the app and then enter the PIN code for the application before it can be used.
+
+### Beginning of transaction
 
 Beginnings of purchases are often omitted in advert material. In the case of Danske MobilePay you need to do the following steps to ready the phone for payments:
 
@@ -58,22 +64,26 @@ Beginnings of purchases are often omitted in advert material. In the case of Dan
 
 However, MobilePay now also supports payments from locked screen, see below.
 
-# General
+## Registration Process
 
-The way the MobilePay app has been implemented it requires the app user to take out their phone for payment and then start the app and then enter the PIN code for the application before it can be used.
+Registration process differs for app users and business users who are setting up a shoppe.
 
+## Use Case: Brick & Mortar Use Case #1: SA terminal/mobile phone - in-app purchase case
 
-## Brick & Mortar Use Case #1: SA terminal/mobile phone - in-app purchase case
+### Device Setup
 
-### Device Setup:
 - Clerk: payment terminal that supports MobilePay (e.g. Verifone), this means Bluetooth & QR-code support
 - Customer: phone supporting MobilePay
-
-### Purchase
 
 Specific setup:
 - Verifone SA payment terminal w/a receipt printer and bluetooth support
 - A mobile phone
+
+### Preconditions
+
+...
+
+### Use Case Steps
 
 1. The Clerk inputs clicks the green button on the SA payment terminal to initiate the sales price input
 2. The Clerk the sales price into the payment terminal
@@ -93,19 +103,24 @@ Specific setup:
 
 See sample video: https://player.vimeo.com/video/203367072 - it shows some of the steps mentioned above but not all, as it is an advert.
 
-## Brick & Mortar Use Case #2: SA terminal/mobile phone - Locked screen payment
+## Use Case: Brick & Mortar #2: SA terminal/mobile phone - Locked screen payment
 
-### Device Setup:
+### Device Setup
+
 - Clerk: payment terminal that supports MobilePay (e.g. Verifone), this means Bluetooth & QR-code support
 - Customer: phone supporting MobilePay
 
-### Purchase
+### Preconditions
+
+...
+
+### Use Case Steps
 
 ...TODO...
 
-## Brick & Mortar Use Case #3: MyShop - 2 mobile phones
+## Use Case: Brick & Mortar #3: MyShop - 2 mobile phones
 
-### Device Setup:
+### Device Setup
 
 Clerk:
   - MobilePay MyShop App
@@ -114,7 +129,11 @@ Clerk:
 Customer:
   - mobile phone w/MobilePay mobile app
 
-### Purchase
+### Preconditions
+
+...
+
+### Use Case Steps
 
 - Clerk inputs sales price into their mobile phone MobilePay MyShop App
 - Customer starts their phone app and signs in via a PIN code
@@ -123,9 +142,9 @@ Customer:
 
 See video: http://publisher.qbrick.com/Embed.aspx?mcid=357FCD1A059B2C01
 
-## Brick & Mortar Use Case: ...
+## Use Case: Brick & Mortar #N ...
 
-### Device Setup:
+### Device Setup
 
 Clerk:
   - POS Cash Register
@@ -134,7 +153,11 @@ Clerk:
 Customer:
   - mobile phone w/MobilePay mobile app
 
-### Purchase
+### Preconditions
+
+...
+
+### Use Case Steps
 
 - Clerk inputs sales price into POS cash register
 - Customer presents their mobile phone to the MobilePay wireless device
@@ -145,7 +168,9 @@ Customer:
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
-# Locked screen purchases
+# Tech
+
+## Locked screen purchases
 
 MobilePay has launched a new payment type that allows for paying from locked screens of mobile phones in April 2017.
 
@@ -172,31 +197,54 @@ https://www.mobilepay.dk/da-dk/Erhverv/Pages/mobilepay-terminaler.aspx
 https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
 https://www.danskebank.fi/fi-fi/tietoa-danske-bankista/media/Tiedotteet/Pages/Bambora%20ja%20MobilePay.aspx
 
-# Mobile OS Support
-
-MobilePay is supported on Android, iOS and Windows phones.
-
-# Pricing
-
-The MobilePay app is free to use at least for now to end-user customers, that is, to the person who installs the MobilePay app to their phone as a private individual. Payments vary for business customers depending on the chosen setup and current discounts.
-
-# QR-codes
+## QR-code support
 
 The app user can create their own QR-code via a generator here: https://stadel.dk/MobilePay_QR_kode_generator - however, apparently MobilePay Business version seems to be required.
 
-# Goals
+## App
 
-The stated goal of MobilePay is to provide a leading solution for the Nordic markets and to find a way to collaborate with the Swedish Swish. A long term goal of being able to make payments between Swish and MobilePay has been stated.
+### Downloads
 
-# Collaboration
+Android: https://play.google.com/store/apps/details?id=dk.danskebank.mobilepay&hl=en
+iOS: 
 
-Customers of all Finnish banks can use the application. DB has invited all Fennoscandian banks to join in collaboration with MobilePay. Originally MobilePay was created as a solution for DB that decided against national cooperation with Danish banks to build a common app for Denmark. The reasons sited for this decision included the fact that DB did not want to develop a Denmark-only solution.
+### Ratings
 
-Finnish Nordea Bank is in collaboration with MobilePay in Denmark and Norway.
+Android: 4.3
+iOS: 4+
 
-DB has stated that it is following the Finnish solution, Siirto, but has not joined it. DB said that MobilePay basically has almost all of the features already that the Finnish Siirto would be offering.
+### OS Support
 
-# Size
+MobilePay is supported on Android, iOS and Windows phones.
+
+### SDK
+
+* https://github.com/MobilePayDev
+* https://www.mobilepay.dk/da-dk/Developer/Pages/developer.aspx
+
+### Language
+
+REST API
+
+## eCommerce
+
+...
+
+## Brick and Mortar
+
+...
+
+## Security
+
+...
+
+# Business
+
+## Pricing
+
+The MobilePay app is free to use at least for now to end-user customers, that is, to the person who installs the MobilePay app to their phone as a private individual. Payments vary for business customers depending on the chosen setup and current discounts.
+
+## Size
 
 In Denmark has more than 3.6 million downloads in the Nordics and more than 27 000 companies are using MobilePay out of which 4 800 are web shops.
 
@@ -206,32 +254,23 @@ In Finland the app has been downloaded 500 000 times. The user base has doubled 
 
 More then 205 million MobilePay transactions are processed yearly. 25% of these transactions are made in shops.
 
-# Ownership
+## Future Goals & Plans
+
+The stated goal of MobilePay is to provide a leading solution for the Nordic markets and to find a way to collaborate with the Swedish Swish. A long term goal of being able to make payments between Swish and MobilePay has been stated.
+
+## Collaboration
+
+Customers of all Finnish banks can use the application. DB has invited all Fennoscandian banks to join in collaboration with MobilePay. Originally MobilePay was created as a solution for DB that decided against national cooperation with Danish banks to build a common app for Denmark. The reasons sited for this decision included the fact that DB did not want to develop a Denmark-only solution.
+
+Finnish Nordea Bank is in collaboration with MobilePay in Denmark and Norway.
+
+DB has stated that it is following the Finnish solution, Siirto, but has not joined it. DB said that MobilePay basically has almost all of the features already that the Finnish Siirto would be offering.
+
+## Ownership
 
 MobilePay was developed and owned by the Danish Danske Bank. It is currently being (2017) made into a subsidiary of DB.
 
-# App
-
-## Download
-
-Android: https://play.google.com/store/apps/details?id=dk.danskebank.mobilepay&hl=en
-iOS: 
-
-## Ratings
-
-Android: 4.3
-iOS: 4+
-
-## SDK
-
-* https://github.com/MobilePayDev
-* https://www.mobilepay.dk/da-dk/Developer/Pages/developer.aspx
-
-## Language
-
-REST API
-
-# Ref
+# References
 
 https://mobilepay.fi/fi-fi/Pages/faq.aspx
 http://www.mobilepay.fi/fi-fi/Pages/mobilepay.aspx

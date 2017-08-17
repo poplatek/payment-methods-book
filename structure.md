@@ -5,6 +5,7 @@ This is one possible structure template for a page regarding a mobile payment me
 ## About
 
 # Features
+## List of Features
 ## Strengths
 ## Weaknesses
 ## Requirements
@@ -18,23 +19,27 @@ This is one possible structure template for a page regarding a mobile payment me
 ### Use Case Steps
 
 # Tech
-## Locked screen purchases
-## QR-codes
+## Locked screen purchase support
+## QR-code support
+## Bluetooth support
+## NFC support
+## Finger Print support
 ## App
-### Download
+### Downloads
 ### Ratings
 ### OS Support
 ### SDK
 ### Language
 ## eCommerce
+## Brick and Mortar
 ## Security
-## Support
 
 # Business
 ## Pricing
 ## Size/Expansion
-## Future/Goals/Plans
-## Collaboration/Parties/Groups
-## Owner/Ownership
+## Future Goals & Plans
+## Collaboration
+## Ownership
 ## Background/History
 
+# Refs/References
