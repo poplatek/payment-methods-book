@@ -22,7 +22,8 @@ TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 
 ## Strengths
 
-...
+- Vipps has an intelligent scheme for paying to non-Vipps users: if a payment is targeted to a non-Vipps user, they will be sent a SMS text message that tells the of money transfer and that they can receive the money if and only if they install the Vipps app
+- Vipps has a chat
 
 ## Weaknesses
 
