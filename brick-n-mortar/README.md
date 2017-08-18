@@ -12,7 +12,7 @@ On top of that, MobilePay uses only one app and is even sporting a locked screen
 
 The use cases seem generally quite well designed for MobilePay, and MobilePay has a lot of features. 
 
-MobilePay is also aiming at being able to interoperate w/the Swedish Swish. MobilePay is already available in Denmark, Norway and Finland and may well emerge as the winner from the mobile payment market in the Nordics. It already has a very significant user base.
+MobilePay is also aiming at being able to interoperate w/the Swedish Swish in order to be able to transfer payments between Swedish Swish users and Mobilepay users. MobilePay is already available in Denmark, Norway and Finland and may well emerge as the winner from the mobile payment market in the Nordics. It already has a very significant user base.
 
 MobilePay has a few weaknesses as well, most notably a delay in money transfer to a bank other than Danske Bank and the fact that it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
 
@@ -32,8 +32,8 @@ On the plus side, due to BankId, Swish is able to transfer the payments instantl
 
 Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers
 instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market.
-It is likely that Swish will become more or less the standard mobile payment method in Sweden. 
-If it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure at the same time as MobilePay users will be able to pay to all Swedish Swish users.
+It is likely that Swish will win the Swedish mobile payments market.
+If it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure.
 
 ## About
 
@@ -116,7 +116,4 @@ View the typical use case flows from the [Swish page](../swish/README.md)
 ## Comparison table
 
 * [Nordic Mobile Payments Brick and Mortar Comparison Spreadsheet](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods)
-
-
-
 
