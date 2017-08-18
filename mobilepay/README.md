@@ -1,5 +1,19 @@
 # MobilePay
 
+## Exec Summary
+
+MobilePay is very strong in many ways.
+
+MobilePay's use cases seems reasonably good even for brick-and-mortar payments. They used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
+
+On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone nofitications. And MobilePay is trying to get black screen and open screen purchases to work as well.
+
+The use cases seem generally quite well designed for MobilePay, and MobilePay has a lot of features. 
+
+MobilePay is also aiming at being able to interoperate w/the Swedish Swish. MobilePay is already available in Denmark, Norway and Finland and may well emerge as the winner from the mobile payment market in the Nordics. It already has a very significant user base.
+
+MobilePay has a few weaknesses as well, most notably a delay in money transfer to a bank other than Danske Bank and the fact that it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
+
 ## About
 
 MobilePay is an application for iOS, Android and Windows phones that allows for payments using a mobile phone number instead of a bank account number or a credit card at hand.
@@ -87,7 +101,6 @@ Registration process differs for app users and business users who are setting up
 8. Mobile phone displays the success/receipt screen
 
 See video: http://publisher.qbrick.com/Embed.aspx?mcid=ACD4EDCCa6500CCE
-
 
 ## Use Case: Brick & Mortar Use Case #1: SA terminal/mobile phone - in-app purchase case
 
@@ -325,4 +338,7 @@ https://www.youtube.com/watch?v=eeSyS9gmbYE
 https://www.youtube.com/watch?v=JENIMfJIzRo
 https://www.youtube.com/watch?v=VSQx5yTfYcg
 
+instore: http://publisher.qbrick.com/Embed.aspx?mcid=6D7FD2A7A6500CCE
+inapp: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
+pay in 4: http://publisher.qbrick.com/Embed.aspx?mcid=ACD4EDCCa6500CCE
 

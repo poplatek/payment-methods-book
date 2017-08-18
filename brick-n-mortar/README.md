@@ -2,11 +2,19 @@
 
 ## Exec Summary
 
-Sketch/TODO:
-
 ### Danske MobilePay
 
-Could be the best of the lot use-case-wise. Only hindrance is that it doesn't support instant payments to banks that are not Danske Bank.
+MobilePay is very strong in many ways.
+
+MobilePay's use cases seems reasonably good even for brick-and-mortar payments. They used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
+
+On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone nofitications. And MobilePay is trying to get black screen and open screen purchases to work as well.
+
+The use cases seem generally quite well designed for MobilePay, and MobilePay has a lot of features. 
+
+MobilePay is also aiming at being able to interoperate w/the Swedish Swish. MobilePay is already available in Denmark, Norway and Finland and may well emerge as the winner from the mobile payment market in the Nordics. It already has a very significant user base.
+
+MobilePay has a few weaknesses as well, most notably a delay in money transfer to a bank other than Danske Bank and the fact that it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
 
 ### Dankort Mobil
 
