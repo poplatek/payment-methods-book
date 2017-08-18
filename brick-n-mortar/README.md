@@ -2,38 +2,31 @@
 
 ## Exec Summary
 
-### Danske MobilePay
+Missing: Vipps, Dankort
 
-MobilePay is very strong in many ways.
+### MobilePay
+
+MobilePay is very strong in many ways. The use cases seem generally quite well designed for MobilePay, and MobilePay has a lot of features. 
 
 MobilePay's use cases seems reasonably good even for brick-and-mortar payments. They used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
 
-On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone nofitications. And MobilePay is trying to get black screen and open screen purchases to work as well.
-
-The use cases seem generally quite well designed for MobilePay, and MobilePay has a lot of features. 
-
-MobilePay is also aiming at being able to interoperate w/the Swedish Swish in order to be able to transfer payments between Swedish Swish users and Mobilepay users. MobilePay is already available in Denmark, Norway and Finland and may well emerge as the winner from the mobile payment market in the Nordics. It already has a very significant user base.
+On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone notifications. MobilePay is also trying to get black screen and open screen purchases to work, as well.
 
 MobilePay has a few weaknesses as well, most notably a delay in money transfer to a bank other than Danske Bank and the fact that it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
 
-### Dankort Mobil
-
-Has a wide array of payment methods and could be the 2nd best of the solutions behind MobilePay.
-
-### Vipps
-
-Probably excessively geared towards the local market, needs more research.
-
 ### Swish
 
-Swish uses a Swedish BankId application as an extra mobile app. This approach has significant weaknesses but also some strengths.
-First of all, Swish is SEK and Sweden only. As it uses two apps, its use cases are more cumbersome than they need to be.
-On the plus side, due to BankId, Swish is able to transfer the payments instantly to all participating banks.
+Swedish Swish uses a Swedish BankId application as an extra mobile app. This approach has significant weaknesses but also some strengths.
 
-Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers
-instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market.
-It is likely that Swish will win the Swedish mobile payments market.
-If it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure.
+First of all, Swish is SEK and Sweden only. As it uses two apps, its use cases are more cumbersome than they need to be. On the plus side, due to BankId, Swish is able to transfer the payments instantly to all participating banks as well as being able to show the payee's name before the payment is being made.
+
+### Predictions
+
+MobilePay is aiming at being able to interoperate w/the Swedish Swish in order to be able to transfer payments between Swedish Swish users and Mobilepay users. MobilePay is already available in Denmark, Norway and Finland and may well emerge as the winner from the mobile payment market in the Nordics. It already has a very significant user base.
+
+Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market.
+
+It is likely that Swish will win the Swedish mobile payments market. If it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure. Together, they could become the actor in the mobile payments markets in the Nordics.
 
 ## About
 
@@ -95,6 +88,23 @@ View the specifics about the use cases from here: [Dankort Mobil](../dankort/dan
 
 ## Danske Mobilepay
 
+MobilePay is very strong in many ways.
+
+MobilePay's use cases seems reasonably good even for brick-and-mortar payments. They used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
+
+On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone nofitications. And MobilePay is trying to get black screen and open screen purchases to work as well.
+
+The use cases seem generally quite well designed for MobilePay, and MobilePay has a lot of features. 
+
+MobilePay is also aiming at being able to interoperate w/the Swedish Swish in order to be able to transfer payments between Swedish Swish users and Mobilepay users. MobilePay is already available in Denmark, Norway and Finland and may well emerge as the winner from the mobile payment market in the Nordics. It already has a very significant user base.
+
+MobilePay has a few weaknesses as well, most notably a delay in money transfer to a bank other than Danske Bank and the fact that it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
+
+
+...
+
+
+
 Danske Mobilepay is beginning to be well supported. There are payment terminals w/bluetooth and QR-code support that can be used as a standalone payment terminals or as integrated to a POS that can handle MobilePay. This means that no additional MobilePay device supporting Bluetooth and QR-code is needed which used to be the case.
 
 MobilePay is also out with a new locked screen purchase variant that makes low value purchases easier. They are saying that they will follow up with possibly both open screen and black screen purchase variants. There is also a setup where the clerk can use a mobile phone to receive the payment either over the Internet or via a bluetooth tap and probably also via a QR-code.
@@ -105,6 +115,18 @@ View the specifics about the use cases from here: [Danske MobilePay](../mobilepa
 
 ## Swedish Swish
 
+
+Swish uses a Swedish BankId application as an extra mobile app. This approach has significant weaknesses but also some strengths.
+First of all, Swish is SEK and Sweden only. As it uses two apps, its use cases are more cumbersome than they need to be.
+On the plus side, due to BankId, Swish is able to transfer the payments instantly to all participating banks as well as being able to show the payee's name before commiting to a transaction.
+
+Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers
+instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market.
+It is likely that Swish will win the Swedish mobile payments market.
+If it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure.
+
+
+
 Swish is the major mobile payment solution in Sweden. The way it depends on the Bank ID and the Swedish bank systems makes it SEK only and in effect, Sweden only. However, on the other hand, it has the capability of offering instant payment for this very reason and for this reason it is also able to display the name of the payee before payment making it more robust and less prone to error.
 
 On the level of implementation, the fact that the Swedish Swish is dependent on the Bank ID application is a clear minus on the level of usability. First of all in the level of registration you need to be eligible for both of these apps. Then, when in use, most of the things are done from the Swish app that then launches the Bank ID to do its part. After Bank ID processing has been done, the Swish app reappers again to take care of the rest of the transaction.
@@ -112,6 +134,10 @@ On the level of implementation, the fact that the Swedish Swish is dependent on 
 This architecture hinders all of the available payment methods that Swish supports. It has this extra cumbersomeness regardless of whether you are doing a mobile to mobile payment or if, indeed, you are paying to a shoppe clerk using a QR-code. The Bank Id is always there and for the good things that it provides it is clear that it is not a good solution from the point of view of usability and use case design.
 
 View the typical use case flows from the [Swish page](../swish/README.md)
+
+## Vipps
+
+...
 
 ## Comparison table
 
