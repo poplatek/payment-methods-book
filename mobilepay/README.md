@@ -35,12 +35,15 @@ MobilePay is free for use by private individuals.
 - WeShare solution
 
 ## Strengths
+
+- has Locked Screen purchase support
 - can register and use any Debit or Credit from a Finnish bank in Finland (probably similarly elsewhere) as long as the card is enabled to do Internet purchases
 - can register and use any Finnish bank account (probably similarly elsewhere)
 
 ## Weaknesses
 - delay in money transfer
 - credit card to bank account only transfer of funds
+  - can one use a debit card, then money would come from bank account?
 
 MobilePay has a delay in money transfers. If the target account is in Danske Bank, the money transfer is instantanous. If not, in the evenings and over weekend it takes at least one day for the money to be transferred to the target account. Also, MobilePay is not a bank account to bank account transfer system and transfers money from a credit card to a bank account, instead.
 
@@ -299,5 +302,9 @@ http://www.hs.fi/paivanlehti/07032017/art-2000005116588.html
 
 https://stadel.dk/MobilePay_QR_kode_generator
 https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
+
+https://www.youtube.com/watch?v=eeSyS9gmbYE
+https://www.youtube.com/watch?v=JENIMfJIzRo
+https://www.youtube.com/watch?v=VSQx5yTfYcg
 
 
