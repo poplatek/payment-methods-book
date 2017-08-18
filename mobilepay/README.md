@@ -37,8 +37,8 @@ MobilePay is free for use by private individuals.
 ## Strengths
 
 - has Locked Screen purchase support
-- can register and use any Debit or Credit from a Finnish bank in Finland (probably similarly elsewhere) as long as the card is enabled to do Internet purchases
 - can register and use any Finnish bank account (probably similarly elsewhere)
+- open to non-Danske users, 70% of users are not from Danske Bank
 
 ## Weaknesses
 - delay in money transfer
@@ -70,6 +70,24 @@ However, MobilePay now also supports payments from locked screen, see below.
 ## Registration Process
 
 Registration process differs for app users and business users who are setting up a shoppe.
+
+## Use Case: Mobile to mobile basic payment
+### Preconditions
+
+1. Payer opens the mobile phone black screen
+2. Payer opens the MobilePay app
+3. Payer clicks to start a payment
+
+### Use Case Steps
+
+4. Payer feeds in 4-digit PIN code
+5. Payer feeds in payment amount and clicks OK
+6. Payer feeds in payees mobile phone number or name from the address book + OK
+7. Payer swipes to accept the payment
+8. Mobile phone displays the success/receipt screen
+
+See video: http://publisher.qbrick.com/Embed.aspx?mcid=ACD4EDCCa6500CCE
+
 
 ## Use Case: Brick & Mortar Use Case #1: SA terminal/mobile phone - in-app purchase case
 
