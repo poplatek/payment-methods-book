@@ -18,7 +18,7 @@ MobilePay has a few weaknesses as well, most notably a delay in money transfer t
 
 ### Dankort Mobil
 
- Has a wide array of payment methods and could be the 2nd best of the solutions behind MobilePay.
+Has a wide array of payment methods and could be the 2nd best of the solutions behind MobilePay.
 
 ### Vipps
 
@@ -26,7 +26,14 @@ Probably excessively geared towards the local market, needs more research.
 
 ### Swish
 
-The fact that it uses BankID causes many problems like being stuck on the local Swedish market as well as being able to only use SEK but it also makes the use case more cumbersome than it needs to be. For the good that it offers, binding BankID, to my mind, was a mistake now that the other ways of doing things can be seen from other players in the field. On the other hand, using BankID probably protects Swish against the other solutions by other banks. In a way it seems like they dug a ditch that hurts them but also gives them protection against their competitors.
+Swish uses a Swedish BankId application as an extra mobile app. This approach has significant weaknesses but also some strengths.
+First of all, Swish is SEK and Sweden only. As it uses two apps, its use cases are more cumbersome than they need to be.
+On the plus side, due to BankId, Swish is able to transfer the payments instantly to all participating banks.
+
+Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers
+instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market.
+It is likely that Swish will become more or less the standard mobile payment method in Sweden. 
+If it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure at the same time as MobilePay users will be able to pay to all Swedish Swish users.
 
 ## About
 
