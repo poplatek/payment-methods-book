@@ -28,10 +28,12 @@ Vipps is available for Android, Apple and Microsoft.
 - App login: Touch ID (finger print for iOS)
 - Chat
 - user image/avatar
+- senses surroundings: will automagically let you see nearby shops in your Vipps app
+- has search for company payment addresses
+- can be used in eCommerce
+- can be invoices in Vipps
 
 Vipps already has solutions for in-app, e-commerce and invoice and is planning to launch in-store solutions in 2017.
-
-TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 
 ## Strengths
 
@@ -64,10 +66,52 @@ TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 - Create a 4-digit personal code
 - optional: add your image to ease interaction with others
 
-# Use case: TODO
+# Use case: Basic Mobile Payment
 ## Device Setup
 ## Preconditions
+
+1. Disable Mobile Phone Black Screen
+2. Start Vipps
+3. Enter 4-digit Vipps PIN code (or Touch ID, iOS)
+
 ## Use Case Steps
+
+4. Select the person you want to pay from your phone’s contact list or enter their mobile number
+5. Enter the amount and, if you wish, add a personal comment
+6. Press send to send the money
+
+Money will be returned if the recipient does not have Vipps or has not installed it in three days.
+
+# Use case: Asking for Money
+## Device Setup
+## Preconditions
+
+1. Disable Mobile Phone Black Screen
+2. Start Vipps
+3. Enter 4-digit Vipps PIN code (or Touch ID, iOS)
+
+## Use Case Steps
+
+4. Select the person you want to loan from from your phone’s contact list or enter their mobile number
+5. Enter the amount and optional personal message
+6. Press send
+
+# Use case: Splitting Bills
+## Device Setup
+## Preconditions
+
+1. Disable Mobile Phone Black Screen
+2. Start Vipps
+3. Enter 4-digit Vipps PIN code (or Touch ID, iOS)
+
+## Use Case Steps
+
+4. Create a new group
+5. Name the group
+6. Add the participants
+7. Participants add expenses
+8. All participants confirm the expenses
+9. App shows who owns who and how much
 
 # Tech
 ## Locked screen purchases
