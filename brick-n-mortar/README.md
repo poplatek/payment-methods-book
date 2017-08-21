@@ -2,43 +2,29 @@
 
 ## About
 
-This page is for discussion and comparison of different ways of addressing mobile paying in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for MobilePay, Vipps, Swish, Dankort mobile and so on.
+This page is for discussion and comparison of different ways of addressing mobile paying in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for [MobilePay](../mobilepay/README.md), [Vipps](../vipps/README.md), [Swish](../swish/README.md), [Dankort](../dankort/dankortmobil/README.md) mobile and so on. Business and market level comparisons and considerations can be viewed from [here](../biz-lvl-comparison/README.md).
 
-## Exec Summary
+## Exec Summary - might be removed and merged into the sub-chapters
 
-Missing: Vipps, Dankort
+Missing: Dankort
 
 ### MobilePay
 
-MobilePay is very strong in many ways. The use cases seem generally quite well designed for MobilePay and MobilePay has a lot of features. 
+MobilePay's use cases seem generally quite well designed and they seem reasonably good for even brick-and-mortar payments. MobilePay used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
 
-MobilePay's use cases seems reasonably good even for brick-and-mortar payments. They used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
+On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone notifications. MobilePay is also trying to get black screen and open screen purchases to work, as well. MobilePay also has a lot of features.
 
-On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone notifications. MobilePay is also trying to get black screen and open screen purchases to work, as well.
-
-MobilePay has a few weaknesses, most notably a delay in money transfer to a bank other than Danske Bank and it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
+MobilePay has a few weaknesses, most notably a delay in money transfer to an bank account other than that which resides in Danske Bank and it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
 
 ### Swish
 
-Swedish Swish uses a Swedish BankId application as an extra mobile app. This approach has strengths buts also significant weaknesses: Swish is SEK and Sweden only.
+Swish uses a Swedish BankId application as an extra mobile app. This approach has strengths buts also significant weaknesses: Swish is SEK and Sweden only.
 
 As it uses two apps, its use cases are more cumbersome than they need to be. On the plus side, due to BankId, Swish is able to transfer the payments instantly to all participating banks as well as being able to show the payee's name before the payment is being made.
 
 ### Vipps
 
-Vipps seems similarly positioned in the Norwegian mobile payment markets as Swish is in Sweden as 108 banks co-own Vipps. It has a large market share in the country and has its own app that has some unique features like a chat and the ability to pay to non-Vipps customers via their mobile phone.
-
-### Predictions
-
-MobilePay is aiming at being able to interoperate w/the Swedish Swish in order to be able to transfer payments between Swedish Swish users and Mobilepay users. MobilePay is already available in Denmark, Norway and Finland. It already has a very significant user base.
-
-Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market.
-
-It is likely that Swish will win the Swedish mobile payments market. If it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure.
-
-Vipps is major in Norway and its owner DNB made a defensive move in spinning off Vipps and keeping the controlling (52%) ownership of the company while letting 107 other Norwegians banks acquire 48% of Vipps. MobilePay is still in competition w/Vipps in Norway but it is not inconceivable that MobilePay would end up trying to strike a similar deal w/Vipps as it is now trying to make w/Swish.
-
-This likely arrangement would leave Vipps as the largest player in Norway, Swish as the largest player in Sweden and MobilePay as the largest player in Denmark. If these three parties interoperated in payments, they would have much of the Nordic mobile payments markets in their hands.
+Vipps has its own app that has some unique features like a chat and the ability to pay to non-Vipps customers via their mobile phone.
 
 ## Feasibility of the new mobile payment methods for brick-and-mortar situations
 
@@ -97,8 +83,6 @@ Also, it may be that the iOS/Apple phone solution differs from the Android solut
 View the specifics about the use cases from here: [Dankort Mobil](../dankort/dankortmobil/README.md)
 
 ## Danske Mobilepay
-
-MobilePay is very strong in many ways.
 
 MobilePay's use cases seems reasonably good even for brick-and-mortar payments and MobilePay is beginning to be quite well supported. It also has a lot of features.
 
