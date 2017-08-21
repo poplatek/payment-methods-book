@@ -4,6 +4,9 @@ This is one possible structure template for a page regarding a mobile payment me
 # Topic
 ## About
 
+# TOC
+<!-- toc -->
+
 # Features
 ## List of Features
 ## Strengths

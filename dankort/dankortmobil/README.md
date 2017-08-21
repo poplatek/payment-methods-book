@@ -17,6 +17,10 @@ NETS advertises five ways to pay via Dankort mobile using a mobile phone:
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
+# TOC
+
+<!-- toc -->
+
 # Features
 
 ## List of Features

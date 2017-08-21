@@ -1,10 +1,12 @@
 # Player positions in the Nordic mobile phone payment market
 
-<!-- toc -->
-
 ## About
 
 More business and markets related things will be written here in order to keep them out of the other pages of this book as they seem to creeping everywhere at the time of writing this.
+
+## TOC
+
+<!-- toc -->
 
 ## MobilePay
 

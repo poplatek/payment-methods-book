@@ -1,6 +1,6 @@
 # MobilePay
 
-## Exec Summary
+## Exec Summary ??? <= why, merge the text into the document?
 
 MobilePay is very strong in many ways.
 
@@ -23,6 +23,10 @@ During paying the credit card, which is not physically part of the payment proce
 It is used mainly in Denmark but also to a lesser extent in Finland and Norway.
 
 MobilePay is free for use by private individuals.
+
+# TOC
+
+<!-- toc -->
 
 # Features
 

@@ -12,6 +12,10 @@ Vipps seems heavily Norway based, as you require four (4!) Norwegian things to b
 
 Vipps is available for Android, Apple and Microsoft.
 
+# TOC
+
+<!-- toc -->
+
 # Features
 
 ## List of Features

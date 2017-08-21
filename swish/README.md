@@ -4,6 +4,11 @@
 
 Swish is effectively a Sweden and SEK only solution for mobile payment. It is the major player in Sweden. It has both strengths and weaknesses due to how it has been implemented. Balancing the issue of being Sweden & SEK only, the payments are always instant and you can see the payees name on the mobile phone screen when you're paying.
 ]
+
+# TOC
+
+<!-- toc -->
+
 # Features
 
 ## List

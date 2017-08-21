@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Mobile Payments Comparison Spreadsheet](https://github.com/poplatek/payment-methods-book/blob/master/nordic-mobile-payments-comparison.ods)
 * [Brick'n Mortar](brick-n-mortar/README.md)
-* [Collaboration](collaboration/README.md)
+* [Collaboration](collaborations/README.md)
 * [Dankort](dankort/dankortmobil/README.md)
 * [Mobile payments](mobile-payments/README.md)
 * [Hilu](hilu/README.md)
