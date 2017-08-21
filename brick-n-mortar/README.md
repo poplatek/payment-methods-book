@@ -123,7 +123,9 @@ View the typical use case flows from the [Swish page](../swish/README.md)
 
 ## Vipps
 
-...
+Vipps is the major Norwegian player that has its own innovations. First of all, its app has a chat that lets the users converse with one another. It also supports a payment message. On top of that is has an innovative SMS-based solutions for letting Vipps users make payments to non-Vipps users. If a Vipps user pays a non-Vipps user the latter will be sent a text message that tells them of the payment they are about to receive as long as they install the Vipps app. This is brilliant.
+
+Vipps is also collaborative like MobilePay and 40% of its user base comes from non-DNB banks.
 
 ## Comparison table
 

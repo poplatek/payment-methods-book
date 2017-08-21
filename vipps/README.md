@@ -4,7 +4,7 @@
 
 Vipps is the largest payment application in Norway and it provides the service of paying via using the mobile phone number instead of a bank account number. Vipps necessitates a Visa or Mastercard payment card which will be bound to the phone number upon registration. The Vipps application has a chat that allows for conversing between participants. If a payment is made to a non-Vipps phone number an SMS will be sent to that number that recommends the owner to install the Vipps app to receive the payment. If they don't, they will not receive the payment.
 
-Vipps was launched in 2015 and it reached 1 million users in a matter of months. Even if it is owned by DNB the customers of other Norwegian banks can use it and 40% of the users of Vipps are not customers of the DNB.
+Vipps was launched in 2015 and it reached 1 million users in a matter of months. Even if it is owned by DNB the customers of other Norwegian banks can use it and 40% of the users of Vipps are not customers of the DNB. Vipps seems heavily Norway based, as you require four (4!) Norwegian things to be able to use it: national ID number, national mobile phone number, a nationally issued payment card and a national bank account number.
 
 Vipps is available for Android, Apple and Microsoft phones.
 
@@ -17,6 +17,7 @@ Vipps was launched by DNB and TCS (Tata).
 - mobile to mobile payment
 - sending money
 - payment messages
+- Chat
 
 TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 
@@ -37,7 +38,6 @@ TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 - A Norwegian account number in any Norwegian bank
 - An email address
 - To be over 15 years old
-
 
 # Use cases
 
@@ -85,7 +85,6 @@ Android: 3.1
 ## eCommerce
 
 ## Brick and Mortar
-
 
 ### VippsGO: small mobile web shop
 
