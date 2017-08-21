@@ -1,30 +1,12 @@
 # Brick and mortar mobile payment methods comparison
 
+<!-- toc -->
+
 ## About
 
-This page is for discussion and comparison of different ways of addressing mobile paying in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for [MobilePay](../mobilepay/README.md), [Vipps](../vipps/README.md), [Swish](../swish/README.md), [Dankort](../dankort/dankortmobil/README.md) mobile and so on. Business and market level comparisons and considerations can be viewed from [here](../biz-lvl-comparison/README.md).
+This page is for discussion and comparison of different ways of addressing mobile paying in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for [MobilePay](../mobilepay/README.md), [Vipps](../vipps/README.md), [Swish](../swish/README.md), [Dankort](../dankort/dankortmobil/README.md) mobile and so on. Business and market level comparisons and considerations can be viewed from [here](../biz-lvl-comparison/README.md). 
 
-## Exec Summary - might be removed and merged into the sub-chapters
-
-Missing: Dankort
-
-### MobilePay
-
-MobilePay's use cases seem generally quite well designed and they seem reasonably good for even brick-and-mortar payments. MobilePay used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
-
-On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone notifications. MobilePay is also trying to get black screen and open screen purchases to work, as well. MobilePay also has a lot of features.
-
-MobilePay has a few weaknesses, most notably a delay in money transfer to an bank account other than that which resides in Danske Bank and it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
-
-### Swish
-
-Swish uses a Swedish BankId application as an extra mobile app. This approach has strengths buts also significant weaknesses: Swish is SEK and Sweden only.
-
-As it uses two apps, its use cases are more cumbersome than they need to be. On the plus side, due to BankId, Swish is able to transfer the payments instantly to all participating banks as well as being able to show the payee's name before the payment is being made.
-
-### Vipps
-
-Vipps has its own app that has some unique features like a chat and the ability to pay to non-Vipps customers via their mobile phone.
+There is also a spreadsheet comparison about the different players [generally](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods) and as it pertain to the brick and mortar more [specifically][https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods].
 
 ## Feasibility of the new mobile payment methods for brick-and-mortar situations
 
@@ -64,25 +46,14 @@ There are many ways to go about the brick and mortar mobile payment situation. S
 
 There are certainly strenghts and weaknessess to both of these ways of approaching the brick and mortar payment situation. It seems however that the different ways to go about it end up converging to somewhat similar end results.
 
-### Dankort Mobile
 
-The Dankort mobile solution is a white label wallet solution for mobile payments. White labeling is supported in order to be able to have the local banks use their logos in the apps to ensure customer loyalty. Overall the Dankort Mobile seems to be based on extending the existing solutions the customers already have at their sales locations.
+## Mobilepay
 
-Dankort mobile appears to support several payment methods but seems to be, above all, an old school way of going about it. The credit card is put electronically into the mobile phone, so to speak, and a regular NFC payment can be made in the same way as you would w/a credit card.
+MobilePay's use cases seem generally quite well designed and they seem reasonably good for even brick-and-mortar payments. MobilePay used to require an extra Bluetooth/QR-Code device but this is no longer the case because e.g. Verifone and Ingenico are offering classic payment terminals that support these communications technologies.
 
-Dankort mobile goes much further than this, however. There is an additional Bluetooth device that can be added to the existing POS setup which allows for paying via the mobile Dankort app through presenting/tapping the phone to this new device.
+On top of that, MobilePay uses only one app and is even sporting a locked screen purchase that allows the customer to purchase using mobile phone notifications. MobilePay is also trying to get black screen and open screen purchases to work, as well. MobilePay also has a lot of features.
 
-There is a new check in/check out solution that lets the customer in some way to first tap their dankort phone to a receiver which start the transaction processing and the transaction is processed at the same the customer is packing their things and completes apparently when the cashier has finished handling the products for this customer. This is basically a solution for making the bag packing and the payment work in parallel.
-
-QR-code is also supported even though it does look somewhat clumsy as a use case and then there may be a prototype of starting a purchase from a locked screen situation via the mobile phone which may or may not be a future Dankort mobile product.
-
-The specifics about the use cases seem to depend on the setup. It is a bit different if you have a mobile phone and standalone terminal than it is if you have an integrated payment terminal w/a POS and a bluetooth reader device in addition to the mobile phone.
-
-Also, it may be that the iOS/Apple phone solution differs from the Android solution which is based on the Android HCE technology. The iOS solution may be Bluetooth-based and it is not certain what features it supports and what features it perhaps does not. It could be, for example, that there is no support for NFC purchases on iOS.
-
-View the specifics about the use cases from here: [Dankort Mobil](../dankort/dankortmobil/README.md)
-
-## Danske Mobilepay
+MobilePay has a few weaknesses, most notably a delay in money transfer to an bank account other than that which resides in Danske Bank and it requires its users to own a credit/debit card in addition to the smartphone and a bank account.
 
 MobilePay's use cases seems reasonably good even for brick-and-mortar payments and MobilePay is beginning to be quite well supported. It also has a lot of features.
 
@@ -100,7 +71,12 @@ MobilePay has a few weaknesses as well, most notably a delay in money transfer t
 
 View the specifics about the use cases from here: [Danske MobilePay](../mobilepay/README.md)
 
-## Swedish Swish
+## Swish
+
+Swish uses a Swedish BankId application as an extra mobile app. This approach has strengths buts also significant weaknesses: Swish is SEK and Sweden only.
+
+As it uses two apps, its use cases are more cumbersome than they need to be. On the plus side, due to BankId, Swish is able to transfer the payments instantly to all participating banks as well as being able to show the payee's name before the payment is being made.
+
 
 Swish is the major mobile payment solution in Sweden. The way it depends on the Bank ID and the Swedish bank systems makes it SEK only and in effect, Sweden only. This also leads to the situation where a Swish user also needs to use another Bank Id app.
 
@@ -109,17 +85,32 @@ but being dependent on the Bank ID application is a clear minus on the level of 
 
 This architecture hinders the usability of all of the available payment methods that Swish supports. It has this extra cumbersomeness regardless of whether you are doing a mobile to mobile payment or if, indeed, you are paying to a shoppe clerk using a QR-code. The Bank Id is always there and for the good things that it provides it is clear that it is not a good solution from the point of view of usability and use case design.
 
-Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market. It seems likely that Swish will win the Swedish mobile payments market and if it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure.
-
 View the typical use case flows from the [Swish page](../swish/README.md)
 
 ## Vipps
 
-Vipps is the major Norwegian player that has its own innovations. First of all, its app has a chat that lets the users converse with one another. It also supports a payment message. On top of that is has an innovative SMS-based solutions for letting Vipps users make payments to non-Vipps users. If a Vipps user pays a non-Vipps user the latter will be sent a text message that tells them of the payment they are about to receive as long as they install the Vipps app. This is brilliant.
+Vipps is the major Norwegian player that has its own innovations. First of all, its app has a chat that lets the users converse with one another. It also supports a payment message.
 
-Vipps is also collaborative like MobilePay and 40% of its user base comes from non-DNB banks.
+On top of that is has an innovative SMS-based solutions for letting Vipps users make payments to non-Vipps users. If a Vipps user pays a non-Vipps user the latter will be sent a text message that tells them of the payment they are about to receive as long as they install the Vipps app. This is brilliant.
 
-## Comparison table
+Vipps has its own app that has some unique features like a chat and the ability to pay to non-Vipps customers via their mobile phone.
 
-* [Nordic Mobile Payments Brick and Mortar Comparison Spreadsheet](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods)
+
+## Dankort Mobile
+
+The Dankort mobile solution is a white label wallet solution for mobile payments. White labeling is supported in order to be able to have the local banks use their logos in the apps to ensure customer loyalty. Overall the Dankort Mobile seems to be based on extending the existing solutions the customers already have at their sales locations.
+
+Dankort mobile appears to support several payment methods but seems to be, above all, an old school way of going about it. The credit card is put electronically into the mobile phone, so to speak, and a regular NFC payment can be made in the same way as you would w/a credit card.
+
+Dankort mobile goes much further than this, however. There is an additional Bluetooth device that can be added to the existing POS setup which allows for paying via the mobile Dankort app through presenting/tapping the phone to this new device.
+
+There is a new check in/check out solution that lets the customer in some way to first tap their dankort phone to a receiver which start the transaction processing and the transaction is processed at the same the customer is packing their things and completes apparently when the cashier has finished handling the products for this customer. This is basically a solution for making the bag packing and the payment work in parallel.
+
+QR-code is also supported even though it does look somewhat clumsy as a use case and then there may be a prototype of starting a purchase from a locked screen situation via the mobile phone which may or may not be a future Dankort mobile product.
+
+The specifics about the use cases seem to depend on the setup. It is a bit different if you have a mobile phone and standalone terminal than it is if you have an integrated payment terminal w/a POS and a bluetooth reader device in addition to the mobile phone.
+
+Also, it may be that the iOS/Apple phone solution differs from the Android solution which is based on the Android HCE technology. The iOS solution may be Bluetooth-based and it is not certain what features it supports and what features it perhaps does not. It could be, for example, that there is no support for NFC purchases on iOS.
+
+View the specifics about the use cases from here: [Dankort Mobil](../dankort/dankortmobil/README.md)
 

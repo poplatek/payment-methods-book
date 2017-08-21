@@ -1,5 +1,7 @@
 # Player positions in the Nordic mobile phone payment market
 
+<!-- toc -->
+
 ## About
 
 More business and markets related things will be written here in order to keep them out of the other pages of this book as they seem to creeping everywhere at the time of writing this.
@@ -12,11 +14,15 @@ MobilePay is very strong in many ways. Is is very prevalent in Denmark but as op
 
 Swish is very strong in Sweden, but only in Sweden. Swedish Swish uses a Swedish BankId application as an extra mobile app. This approach has strengths buts also significant weaknesses: Swish is SEK and Sweden only.
 
+Swish has a large market share in Sweden and seems solely geared to the Swedish markets. As it is so strong locally and offers instant payments in that area, MobilePay is now trying to get into collaboration with Swish rather than attempting to take over its market. It seems likely that Swish will win the Swedish mobile payments market and if it ends up in collaboration with MobilePay its users will be able to transfer money to most Nordic destinations via the MobilePay infrastructure.
+
 ## Vipps
 
 Vipps seems similarly positioned in the Norwegian mobile payment markets as Swish is in Sweden as 108 banks co-own Vipps. It has a large market share in the country and has its own app that has some unique features like a chat and the ability to pay to non-Vipps customers via their mobile phone.
 
 Vipps is major in Norway and its owner DNB made a defensive move in spinning off Vipps and keeping the controlling (52%) ownership of the company while letting 107 other Norwegians banks acquire 48% of Vipps. 
+
+Vipps used to be collaborative even before the spin-off like MobilePay and 40% of its user base comes from non-DNB banks.
 
 ## Predictions
 
