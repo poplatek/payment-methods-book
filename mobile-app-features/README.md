@@ -2,7 +2,7 @@
 
 ## About
 
-A list of features from different mobile phone apps as a glossary.
+A list of features from different mobile phone apps as a simple list that tries to be comprehensive.
 
 ## Features
 

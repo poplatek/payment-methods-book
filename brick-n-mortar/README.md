@@ -2,9 +2,11 @@
 
 ## About
 
-This page is for discussion and comparison of different ways of addressing mobile paying in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for [MobilePay](../mobilepay/README.md), [Vipps](../vipps/README.md), [Swish](../swish/README.md), [Dankort](../dankort/dankortmobil/README.md) mobile and so on. 
+This page is for discussion and comparison of different ways of addressing mobile payments in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for [MobilePay](../mobilepay/README.md), [Vipps](../vipps/README.md), [Swish](../swish/README.md), [Dankort](../dankort/dankortmobil/README.md) mobile and so on. 
 
 Business and market level comparisons and considerations can be viewed from [here](../biz-lvl-comparison/README.md).  There is also a spreadsheet comparison about the different players [generally](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods) and as it pertains to the brick and mortar more [specifically](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods).
+
+There is also a collection of [mobile app features](../mobile-app-features/README.md), which attempts towards comprehensiveness.
 
 ## TOC
 
