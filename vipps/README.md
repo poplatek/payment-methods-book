@@ -4,7 +4,9 @@
 
 Vipps is the largest payment application in Norway and it provides the service of paying via using the mobile phone number instead of a bank account number. Vipps necessitates a Visa or Mastercard payment card which will be bound to the phone number upon registration. The Vipps application has a chat that allows for conversing between participants. If a payment is made to a non-Vipps phone number an SMS will be sent to that number that recommends the owner to install the Vipps app to receive the payment. If they don't, they will not receive the payment.
 
-Vipps was launched in 2015 and it reached 1 million users in a matter of months. Even if it is owned by DNB the customers of other Norwegian banks can use it and 40% of the users of Vipps are not customers of the DNB. Vipps seems heavily Norway based, as you require four (4!) Norwegian things to be able to use it: national ID number, national mobile phone number, a nationally issued payment card and a national bank account number.
+Vipps was launched in 2015 and it reached 1 million users in a matter of months. Originally owned by DNB the customers of other Norwegian banks have been able to use it and 40% of the users of Vipps are not customers of the DNB. DNB is in the process of spinning off Vipps to more than 100 Norwegian banks to fend off its competitors.
+
+Vipps seems heavily Norway based, as you require four (4!) Norwegian things to be able to use it: national ID number, national mobile phone number, a nationally issued payment card and a national bank account number.
 
 Vipps is available for Android, Apple and Microsoft phones.
 
@@ -14,10 +16,19 @@ Vipps was launched by DNB and TCS (Tata).
 
 ## List of Features
 
+- pay to a person or company from mobile phone addressbook
+- pay from bank account via a debit card
+- pay w/mobile phone number
 - mobile to mobile payment
 - sending money
-- payment messages
+- messages with payments
+- payments to several parties
+- splitting bills
 - Chat
+- App login: 4 digit personal code
+- App login: Touch ID (finger print for iOS)
+- no verification up to 2000 NOK (c. 215 EUR), then BankID
+- user image/avatar
 
 TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 
@@ -37,7 +48,7 @@ TODO: https://play.google.com/store/apps/details?id=no.dnb.vipps&hl=en
 - A Norwegian payment card (Visa or MasterCard)
 - A Norwegian account number in any Norwegian bank
 - An email address
-- To be over 15 years old
+- Over 15 years old
 
 # Use cases
 
@@ -72,7 +83,7 @@ Android: 3.1
 
 ### OS support
 
-...
+iOS, Android, Windows
 
 ### SDK
 
@@ -108,6 +119,8 @@ https://www.vipps.no/vippsgo.html
 
 ## Pricing
 
+
+
 Vipps allows for its users to do free payments between friends upto a sum of 5000 NOK (circa 534€, 2017). Other types of payments are non-free and there are different payment schemes for different situations and parties. An even amount for a transaction plus a percentage for a transaction is one scheme, another has a monthly payment plus a percentage of the full sum.
 
 View the full pricing scheme from Vipps: [Vipps (priser)](https://www.vipps.no/priser.html).
@@ -126,7 +139,7 @@ Vipps already has solutions for in-app, e-commerce and invoice and is planning t
 
 ## Ownership
 
-Vipps was owned by the largest financial concern in Norway, DNB. DNB has grown through fusions to be the 72nd largest bank in the world. It's largest owners are the state (34%), DNB Savings Bank Foundation (9%) and a Norwegian pension fund, Folketrygdfondet (~6%).
+Vipps was owned by the largest financial concern in Norway, DNB but spinned off in 2017. However, DNB is still the controlling owner (52%) of Vipps. More than 100 Norwegian banks own the other 48%.
 
 After Vipps won in the Norwegian market the ownership was set up like so:
  1. DNB 52%
@@ -135,7 +148,11 @@ After Vipps won in the Norwegian market the ownership was set up like so:
  4. the Eika Alliance 10%
  5. Sparebanken Møre 1%.
 
+DNB has grown through fusions to be the 72nd largest bank in the world. It's largest owners are the state (34%), DNB Savings Bank Foundation (9%) and a Norwegian pension fund, Folketrygdfondet (~6%).
+
 ## Background/History
+
+At launch, users had to pay NOK 1 per transfer up to NOK 2 000 and 1% of the amount for larger transfers. When MobilePay was launched without fees, DNB followed, but retained a fee for transactions over 5 000 NOK.
 
 # References
 
@@ -147,3 +164,7 @@ After Vipps won in the Norwegian market the ownership was set up like so:
 [Largest 100 banks in the world (2015)](https://www.snl.com/InteractiveX/Article.aspx?cdid=A-33361429-13866)
 [Folketrygdfondet](https://no.wikipedia.org/wiki/Folketrygdfondet)
 [Norwegian banks join DNB to make Vipps the ‘single mobile wallet’ for customers](https://www.nfcworld.com/2017/02/14/350165/norwegian-banks-join-dnb-make-vipps-single-mobile-wallet-customers/)
+[App review: Vipps](https://medium.com/@maa1/app-review-vipps-4fb69d6bccc3)
+[Vipps by DNB](http://anti.as/news/vipps-by-dnb)
+[DNB spins off Vipps mobile payment service](https://www.finextra.com/newsarticle/30131/dnb-spins-off-vipps-mobile-payment-service)
+
