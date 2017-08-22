@@ -25,6 +25,12 @@ You can install gitbook-cli with:
 $ npm install gitbook-cli -g
 ```
 
+You can install required plugins with:
+
+```
+$ gitbook install
+```
+
 You can preview the book by using:
 
 ```
