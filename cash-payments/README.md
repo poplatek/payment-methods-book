@@ -12,6 +12,8 @@ In Finland Nets declard that the new payment methods are more popular among the 
 
 In 2017/08 it was reported that 76% of Finns prefer payment cards.
 
+Dankort is used in retail transaction as much as cash in Denmark (2011).
+
 ## Europe / European Union
 
 While in the Nordic countries the preference for payment cards is at the level of 75% this is not true for the European Union at large. Mario Draghi, the head of the European Central Bank (ECB) said in 2017 that 75% of transactions in the European Union are done via using cash. In the EU, 76% of people say that they do not wish to give up cash entirely and this rises to 84% for the leading country of Germany. In comparison cash is used in 40% of transaction in Finland.
@@ -22,5 +24,5 @@ While in the Nordic countries the preference for payment cards is at the level o
 2. [CNBC](https://www.cnbc.com/2017/04/05/reuters-america-cash-must-stay-even-in-digital-age-says-german-economy-minister.html)
 3. [ING-DiBa](https://www.ing-diba.de/pdf/ueber-uns/presse/publikationen/ing-diba-economic-research-iis-cashless-society-2017-020517.pdf)
 4. [...](http://www.is.fi/taloussanomat/art-2000005322739.html)
-
+5. [Payment Habits in Denmark (2011)](https://www.nationalbanken.dk/en/publications/Documents/2011/09/MON3Q_P1_2011_Payment%20Habits%20in%20Denmark.pdf)
 

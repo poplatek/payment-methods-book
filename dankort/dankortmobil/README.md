@@ -308,7 +308,10 @@ App is free. For stores normal Dankort rates.
 
 ## Size
 
-1800 stores support Dankort app in Denmark.
+1800 stores support Dankort app in Denmark. Android app download only 10 000 to 50 000 while the major contender have 1 to 5 million downloads. Dankort, the national payment card, however, is just as popular as cash for retail transactions.
+
+Ref:
+https://www.nationalbanken.dk/en/publications/Documents/2011/09/MON3Q_P1_2011_Payment%20Habits%20in%20Denmark.pdf
 
 ## Future Goals & Plans
 
@@ -341,4 +344,4 @@ https://www.youtube.com/watch?v=PN8ARuIjbE8
 https://www.youtube.com/watch?v=w5s4_mp5I2k
 https://www.youtube.com/watch?v=QGRo3I668hU
 http://www.dankort.dk/Pages/Dankort-app-for-kortholder.aspx
-
+https://www.nationalbanken.dk/en/publications/Documents/2011/09/MON3Q_P1_2011_Payment%20Habits%20in%20Denmark.pdf
