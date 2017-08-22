@@ -3,9 +3,13 @@
 
 ## About
 
-Dankort Mobile is a white label mobile wallet solution. It allows for branding for a local bank so that the customer loyalty stays local.
-Dankort Mobile is mostly based on a bluetooth reader that is needed as an added device to the payment system. However, NFC payments
-can also be made via the mobile phone and even QR-code payments are supported even though they seem a bit clunky use-case-wise.
+Dankort differs fundamentally from the other and typical mobile phone payment apps. It is not an Internet based mobile payment app but a white label mobile wallet which, in effect, hold a Dankort payment card.
+
+Dankort app supports NFC which works just like a contactless NFC. It also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel will real world back packing at a store.
+
+As Dankort app is white label It allows for branding for a local bank so that the customer loyalty stays local.
+
+A bluetooth reader might be needed as an extra to the existing setup at a store in some cases.
 
 NETS advertises five ways to pay via Dankort mobile using a mobile phone:
 
@@ -17,6 +21,8 @@ NETS advertises five ways to pay via Dankort mobile using a mobile phone:
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
+Dankort app is still in beta.
+
 # TOC
 
 <!-- toc -->
@@ -25,13 +31,16 @@ See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
 ## List of Features
 
+- does not work in the Internet
+- Denmark only
+
 ## Strengths
 
 ## Weaknesses
 
 ## Requirements
 
-- Dankort
+- Dankort, an existing one, a new one is not needed
 - A supported mobile phone
 - Wallet App from one of the Bokis member banks
 - A device combination at the sales point that supports Dankort Mobile. See use cases.
@@ -275,6 +284,12 @@ Android App (Beta): 1.7/5
 iOS/Apple App: 4+
 
 ### OS Support
+
+Android, iOS. Windows phones won't be initially supported.
+
+iOS: from version 10.0.0 and newer
+Android: from version 5.0.0 and newer, for some phones
+
 ### SDK
 ### Language
 
@@ -289,9 +304,11 @@ At least the Android app does not store the card number and when you cancel the 
 
 ## Pricing
 
-Seems free for at least card holders.
+App is free. For stores normal Dankort rates.
 
 ## Size
+
+1800 stores support Dankort app in Denmark.
 
 ## Future Goals & Plans
 
@@ -312,6 +329,9 @@ Nets has created a Dankort App for customers of banks that do not have a mobile 
 
 
 # References
+## Videos
+http://netseu.23video.com/video/17183272
+## Links
 https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/
 https://www.nets.eu/Media-and-press/news/Pages/Dankort-goes-mobile.aspx
 https://en.wikipedia.org/wiki/Host_card_emulation
@@ -320,5 +340,5 @@ https://play.google.com/store/apps/details?id=eu.nets.dankort&hl=da
 https://www.youtube.com/watch?v=PN8ARuIjbE8
 https://www.youtube.com/watch?v=w5s4_mp5I2k
 https://www.youtube.com/watch?v=QGRo3I668hU
-
+http://www.dankort.dk/Pages/Dankort-app-for-kortholder.aspx
 

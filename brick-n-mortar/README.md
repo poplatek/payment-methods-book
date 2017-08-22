@@ -91,19 +91,21 @@ This is brilliant because Vipps is basically paying the payment receiver to inst
 
 ## Dankort Mobile
 
-The Dankort mobile solution is a white label wallet solution for mobile payments. White labeling is supported in order to be able to have the local banks use their logos in the apps to ensure customer loyalty. Overall the Dankort Mobile seems to be based on extending the existing solutions the customers already have at their sales locations.
+Dankort differs fundamentally from the other and typical mobile phone payment apps. It is not an Internet based mobile payment app but a white label mobile wallet which, in effect, hold a Dankort payment card.
 
-Dankort mobile appears to support several payment methods but seems to be, above all, an old school way of going about it. The credit card is put electronically into the mobile phone, so to speak, and a regular NFC payment can be made in the same way as you would w/a credit card.
+The Dankort app can be used in the brick and mortar case just like a contactless NFC card.  This is a strength because the payment terminals supporting NFC have been already largely fielded for contactless payment cards.
 
-Dankort mobile goes further than this, however. There is an additional Bluetooth device that can be added to the existing POS setup which allows for paying via the mobile Dankort app through presenting/tapping the phone to this new device.
+However, the Dankort app is declared to still be in beta. While its iOS version has a 4+ rating its Android rating is a lowly 1.7/5. 
 
-There is a new check in/check out solution that lets the customer in some way to first tap their dankort phone to a receiver which start the transaction processing and the transaction is processed at the same the customer is packing their things and completes apparently when the cashier has finished handling the products for this customer. This is basically a solution for making the bag packing and the payment work in parallel.
+Dankort app also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel will real world back packing at a store.
 
-QR-code is also supported even though it does look somewhat clumsy as a use case and then there may be a prototype of starting a purchase from a locked screen situation via the mobile phone which may or may not be a future Dankort mobile product.
+The QR-code use case looks somewhat clumsy.
 
-The specifics about the use cases seem to depend on the setup. It is a bit different if you have a mobile phone and standalone terminal than it is if you have an integrated payment terminal w/a POS and a bluetooth reader device in addition to the mobile phone.
+There may be a prototype of starting a purchase from a locked screen situation via the mobile phone which may or may not be a future Dankort mobile product. This is unclear.
 
-Also, it may be that the iOS/Apple phone solution differs from the Android solution which is based on the Android HCE technology. The iOS solution may be Bluetooth-based and it is not certain what features it supports and what features it perhaps does not. It could be, for example, that there is no support for NFC purchases on iOS.
+The specifics about the use cases seem to depend on the device setup.
+
+The iOS solution is probably Bluetooth-based and might not support the exact some things as Android version which is based on Android HCE.
 
 View the specifics about the use cases from here: [Dankort Mobil](../dankort/dankortmobil/README.md)
 
