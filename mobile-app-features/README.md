@@ -15,7 +15,7 @@ A list of features from different mobile phone apps as a simple list that tries 
 7. Splitting bills between several parties
 8. Paying w/o any verification up to a certain amount threshold in one payment
 9. Paying w/o any verification up to a certain amount threshold during that day
-10. Login to app via a personal code e.g. 4 or 6 digits
+10. Login to app via a personal code (PIN) e.g. 4 or 6 digits
 11. Login to app via a biometric code, e.g. a finger print
 12. Confirming a high value payment w/a personal code
 13. Confirming a high value payment w/a biometric code, e.g. finger print (iOS Touch Id, etc.)
@@ -52,5 +52,7 @@ A list of features from different mobile phone apps as a simple list that tries 
 44. Cancels payment to a non-app user if non-app user does not install the app.
 45. Supports paying w/o confirmation for low value transactions.
 46. Supports paying w/confirmation for high value transactions.
+47. White label: allows for custom logos in the application
+48. White label in eCommerce: allows for custom logos in eCommerce
 
 
