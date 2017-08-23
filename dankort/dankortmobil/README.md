@@ -15,6 +15,10 @@ Dankort app banks on the fact that Dankort is used in retail transactions as muc
 
 However, Dankort app is still in beta and its Android app store ratings are low as well as its app download counts that are in the range of tens of thousands whereas the competing mobile apps are in the order of millions of downloads.
 
+There is a mystical proto video in the Internet which might mean that Dankort is pushing towards being able to support notification based locked screen purchases with Dankort app. If this is true it would be a good thing for Dankort app.
+
+Please view the video yourself: https://www.youtube.com/watch?v=FSLH9PvwnDU
+
 # TOC
 
 <!-- toc -->
@@ -28,6 +32,7 @@ However, Dankort app is still in beta and its Android app store ratings are low 
 - supports Bluetooth purchases w/PIN entry for high value purchases
 - supports a Check in/Check out solution for stores to parallelize paying and bag packing
 - supports QR-code purchases
+- high value payments can be accepted via a 4-digit PIN code or a finger print
 
 See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
@@ -79,20 +84,20 @@ There is also no clear way to know whether the application on the mobile phone w
 
 What we can see from the video, for what it's worth, is that the use case seemed to proceed in the following manner:
 
-Clerk:
-- input a sales price into the Yomani terminal in standalone mode or via a some kind of POS device to initiante the purchase
-- The customer turns on the display on the mobile phone
-- The customer presents/taps the mobile phone to the terminal
-- The mobile phone presents the purchase price as a notification on the locked mobile phone screen
-- The customer clicks the notification on the mobile phone screen
-- The mobile phone presents a menu for accepting the payment on the mobile phone screen
-- The customer accepts the payment w/a click of a menu item (Godkand)
-- The mobile phone displays the payment progress screen
-- the mobile phone displays the purchase success screen
+1. The Clerk inputs a sales price into the Yomani terminal in standalone mode or via some kind of POS device to initiate the purchase
+2. The payment terminal should display some kind of screen here perhaps w/the purchase amount and a suggestion to tap the phone to the payment terminal, but doesn't
+3. The Customer turns on the display on the mobile phone
+4. The Customer presents/taps the mobile phone to the terminal
+5. The mobile phone presents the purchase price as a notification on the locked mobile phone screen
+6. The Customer clicks the notification on the mobile phone screen
+7. The mobile phone presents a menu for accepting the payment on the mobile phone screen
+8. The Customer accepts the payment via a click of a menu item (Godkand)
+9. The mobile phone displays the payment progress screen
+10. The mobile phone displays the purchase success screen
 
-It could be that the prototype has been made so that it uses some kind of API for integrated solutions in the app. It could even be a third programme that is used in addition to the regular mobile payment app and the Yomani terminal software. Or the solution could be integrated into the mobile payment application. The video is less than informative on quite a few matters.
+It could be that the prototype has been made so that it uses some kind of an API for integrated solutions in the app. It could even be a third programme that is used in addition to the regular mobile payment app and the Yomani terminal software. Or the solution could be integrated into the mobile payment application. The video is less than informative on quite a few matters.
 
-There is, indeed, no sure way to even be sure that this is a Dankort mobile solution, but so it is claimed.
+There is, indeed, no sure way to even be sure that this is a Dankort mobile solution, but so it is claimed. Take it w/a pinch of salt.
 
 ## Use case: Brick & Mortar #2: SA/Mobile/NFC
 
