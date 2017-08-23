@@ -310,6 +310,11 @@ MobilePay was developed and owned by the Danish Danske Bank. It is currently bei
 
 # References
 
+## Videos
+
+- 2016/07 - [MobilePay – Maksaminen kassalla](https://www.youtube.com/watch?v=PN8ARuIjbE8)
+## Links
+
 https://mobilepay.fi/fi-fi/Pages/faq.aspx
 http://www.mobilepay.fi/fi-fi/Pages/mobilepay.aspx
 https://en.wikipedia.org/wiki/MobilePay

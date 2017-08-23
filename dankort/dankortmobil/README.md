@@ -5,7 +5,7 @@
 
 Dankort app differs fundamentally from the other and typical mobile phone payment apps. It is not an Internet based mobile payment app but a white label mobile wallet which, in effect, holds a Dankort payment card.
 
-Dankort app supports NFC which works just like a contactless NFC payment card and you just tap the mobile phone instead of a payment card to purchase. It also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel with real world back packing at a store.
+Dankort app supports NFC which works just like a contactless NFC payment card and you just tap the mobile phone instead of a payment card to purchase. It also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel with real world bag packing at a store.
 
 Dankort app is white label and allows for branding for a local bank so that the customer loyalty stays local.
 
@@ -15,7 +15,7 @@ Dankort app banks on the fact that Dankort is used in retail transactions as muc
 
 However, Dankort app is still in beta and its Android app store ratings are low as well as its app download counts that are in the range of tens of thousands whereas the competing mobile apps are in the order of millions of downloads.
 
-There is a mystical proto video in the Internet which might mean that Dankort is pushing towards being able to support notification based locked screen purchases with Dankort app. If this is true it would be a good thing for Dankort app.
+There is a mystical prototype video in the Internet which might mean that Dankort is pushing towards being able to support notification based locked screen purchases with Dankort app. If this is true it would be a good thing for Dankort app.
 
 Please view the video yourself: https://www.youtube.com/watch?v=FSLH9PvwnDU
 
@@ -349,15 +349,16 @@ Nets has created a Dankort App for customers of banks that do not have a mobile 
 
 # References
 ## Videos
-http://netseu.23video.com/video/17183272
+
+- 2017/05 - [Sådan betaler du med Dankort app](http://netseu.23video.com/video/17183272)
+- 2016/05 - [NETS WALLET presentation @Money 2020](https://www.youtube.com/watch?v=w5s4_mp5I2k)
+- 2017/06 - [Så nemt betaler du med Dankort app](https://www.youtube.com/watch?v=QGRo3I668hU)
+
 ## Links
-https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/
-https://www.nets.eu/Media-and-press/news/Pages/Dankort-goes-mobile.aspx
-https://en.wikipedia.org/wiki/Host_card_emulation
-https://itunes.apple.com/dk/app/dankort-app/id1213303296?mt=8
-https://play.google.com/store/apps/details?id=eu.nets.dankort&hl=da
-https://www.youtube.com/watch?v=PN8ARuIjbE8
-https://www.youtube.com/watch?v=w5s4_mp5I2k
-https://www.youtube.com/watch?v=QGRo3I668hU
-http://www.dankort.dk/Pages/Dankort-app-for-kortholder.aspx
-https://www.nationalbanken.dk/en/publications/Documents/2011/09/MON3Q_P1_2011_Payment%20Habits%20in%20Denmark.pdf
+- 2017/03 - [Nordic banks roll out first mobile payment services with support for Dankort](https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/)
+- 2015/11 - [Dankort goes mobile](https://www.nets.eu/Media-and-press/news/Pages/Dankort-goes-mobile.aspx)
+- 2017/08 - [HCE - Host Card Emulation / Wikipedia](https://en.wikipedia.org/wiki/Host_card_emulation)
+- 2017/08 - [Dankort App / iOS App Store](https://itunes.apple.com/dk/app/dankort-app/id1213303296?mt=8)
+- 2017/08 - [Dankort App / Android App Store](https://play.google.com/store/apps/details?id=eu.nets.dankort&hl=da)
+- ----/-- - [Nu kan både iOS og Android brugere betale med Dankort app](http://www.dankort.dk/Pages/Dankort-app-for-kortholder.aspx)
+- 2011/Q3 - [Payment Habits in Denmark / Monetary Review (.pdf)](https://www.nationalbanken.dk/en/publications/Documents/2011/09/MON3Q_P1_2011_Payment%20Habits%20in%20Denmark.pdf)
