@@ -46,3 +46,5 @@ This is one possible structure template for a page regarding a mobile payment me
 ## Background/History
 
 # Refs/References
+## Videos
+## Links
