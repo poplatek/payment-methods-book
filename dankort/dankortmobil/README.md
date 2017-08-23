@@ -3,25 +3,17 @@
 
 ## About
 
-Dankort differs fundamentally from the other and typical mobile phone payment apps. It is not an Internet based mobile payment app but a white label mobile wallet which, in effect, hold a Dankort payment card.
+Dankort app differs fundamentally from the other and typical mobile phone payment apps. It is not an Internet based mobile payment app but a white label mobile wallet which, in effect, holds a Dankort payment card.
 
-Dankort app supports NFC which works just like a contactless NFC. It also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel will real world back packing at a store.
+Dankort app supports NFC which works just like a contactless NFC payment card and you just tap the mobile phone instead of a payment card to purchase. It also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel with real world back packing at a store.
 
-As Dankort app is white label It allows for branding for a local bank so that the customer loyalty stays local.
+Dankort app is white label and allows for branding for a local bank so that the customer loyalty stays local.
 
 A bluetooth reader might be needed as an extra to the existing setup at a store in some cases.
 
-NETS advertises five ways to pay via Dankort mobile using a mobile phone:
+Dankort app banks on the fact that Dankort is used in retail transactions as much as cash in Denmark (2011).
 
-1. NFC tap
-2. Bluetooth tap
-3. Bluetooth tap w/PIN entry
-4. Bluetooth Check in/Check out solution
-5. QR-code
-
-See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
-
-Dankort app is still in beta.
+However, Dankort app is still in beta and its Android app store ratings are low as well as its app download counts that are in the range of tens of thousands whereas the competing mobile apps are in the order of millions of downloads.
 
 # TOC
 
@@ -31,12 +23,31 @@ Dankort app is still in beta.
 
 ## List of Features
 
-- does not work in the Internet
-- Denmark only
+- supports NFC purchases
+- supports Bluetooth purchases for low value purchases
+- supports Bluetooth purchases w/PIN entry for high value purchases
+- supports a Check in/Check out solution for stores to parallelize paying and bag packing
+- supports QR-code purchases
+
+See video: https://www.youtube.com/watch?v=PN8ARuIjbE8
 
 ## Strengths
 
+- Based on Dankort which is the national payment card in Denmark
+- Provides an innovative check in/check out payment solution for parallel transaction handling and bag packing
+- White label, allows for local banks to use their own logos
+- Supports NFC purchases
+- Payment temrinals supporting contactless/NFC purchases are already fielded, apparently require mostly software updates only
+
 ## Weaknesses
+
+- Solutions is not Internet based, cannot purchase over the Internet
+- Does not provide a person to person payment based feature set at all
+- Denmark only
+- In beta, app has bad reviews in Android app store
+- Solutions might work differently for Andoid and iOS based phones and support different features
+- No Windows phone support
+- Does not work with all Android phone, only a select set
 
 ## Requirements
 
