@@ -91,13 +91,13 @@ This is brilliant because Vipps is basically paying the payment receiver to inst
 
 ## Dankort Mobile
 
-Dankort differs fundamentally from the other and typical mobile phone payment apps. It is not an Internet based mobile payment app but a white label mobile wallet which, in effect, hold a Dankort payment card.
+Dankort differs fundamentally from the other and typical mobile phone payment apps. It is not an Internet based mobile payment app but a white label mobile wallet which, in effect, holds an existing Dankort payment card the customer already has. Dankort app doesn't appear to support the person to person payment features that are typical of the other mobile phone payment apps.
 
 The Dankort app can be used in the brick and mortar case just like a contactless NFC card.  This is a strength because the payment terminals supporting NFC have been already largely fielded for contactless payment cards.
 
-However, the Dankort app is declared to still be in beta. While its iOS version has a 4+ rating its Android rating is a lowly 1.7/5. 
+However, the Dankort app is declared to still be in beta. While its iOS version has a 4+ rating its Android rating is a lowly 1.7/5. The app download rates are also two decades lower than for the competing apps. Then again, Dankort payment cards are used in retail payments as much as cash, so there is that potential for growth.
 
-Dankort app also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel will real world back packing at a store.
+Dankort app also supports Bluetooth and QR-codes as well as a check in/check out solution for making the transaction handling go in parallel with real world back packing at a store.
 
 The QR-code use case looks somewhat clumsy.
 
@@ -105,7 +105,7 @@ There may be a prototype of starting a purchase from a locked screen situation v
 
 The specifics about the use cases seem to depend on the device setup.
 
-The iOS solution is probably Bluetooth-based and might not support the exact some things as Android version which is based on Android HCE.
+The iOS solution is probably Bluetooth-based and might not support the exact some things as the Android version which is based on Android HCE.
 
 View the specifics about the use cases from here: [Dankort Mobil](../dankort/dankortmobil/README.md)
 
