@@ -312,21 +312,35 @@ MobilePay was developed and owned by the Danish Danske Bank. It is currently bei
 
 ## Videos
 
+- ----/-- - [MobilPay - In Store](http://publisher.qbrick.com/Embed.aspx?mcid=6D7FD2A7A6500CCE)
+- ----/-- - [MobilPay - In-App](http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE)
+- ----/-- - [MobilPay - Pay in 4](http://publisher.qbrick.com/Embed.aspx?mcid=ACD4EDCCa6500CCE)
+
+- 2016/11 - [MobilePay - Danske Bank / Tommy Jessen](https://www.youtube.com/watch?v=VSQx5yTfYcg)
 - 2016/07 - [MobilePay – Maksaminen kassalla](https://www.youtube.com/watch?v=PN8ARuIjbE8)
+- 2014/07 - [MobilePay](https://www.youtube.com/watch?v=JENIMfJIzRo)
+- 2013/09 - [MobilePay demofilm](https://www.youtube.com/watch?v=eeSyS9gmbYE)
+
 ## Links
 
-https://mobilepay.fi/fi-fi/Pages/faq.aspx
-http://www.mobilepay.fi/fi-fi/Pages/mobilepay.aspx
-https://en.wikipedia.org/wiki/MobilePay
-https://fi.wikipedia.org/wiki/MobilePay
-https://www.mobilepay.dk/da-dk/pages/the-story-in-english.aspx
-https://www.danskebank.fi/fi-fi/tietoa-danske-bankista/media/Tiedotteet/Pages/Danske-Bank-kutsuu-kaikki-pohjoismaiset-pankit-mukaan-MobilePay-yhteistyohon-.aspx
-http://www.hs.fi/paivanlehti/07032017/art-2000005116588.html
+- 2017/04 - [World premier of speedy mobile payments from locked screen across smartphone types / MobilePay & Dagrofa](https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf)
+- 2016/10 - [Danske Bank kutsuu kaikki pohjoismaiset pankit mukaan MobilePay-yhteistyöhön](https://www.danskebank.fi/fi-fi/tietoa-danske-bankista/media/Tiedotteet/Pages/Danske-Bank-kutsuu-kaikki-pohjoismaiset-pankit-mukaan-MobilePay-yhteistyohon-.aspx)
+- 2017/03 - [Pankit ottavat käyttöön rahan siirron tililtä toiselle pelkällä puhelinnumerolla – ”Mobiili­maksaminen muuttaa maailmaa merkittävästi” / HS](http://www.hs.fi/paivanlehti/07032017/art-2000005116588.html)
+- ----/-- - [MobilePay QR kode generator](https://stadel.dk/MobilePay_QR_kode_generator)
+- ----/-- - [MobilePay](http://www.mobilepay.fi/fi-fi/Pages/mobilepay.aspx)
+- 2017/-- - [MobilePayn usein kysytyt kysymykset ja vastauksia niihin (FAQ)](https://mobilepay.fi/fi-fi/Pages/faq.aspx)
+- 2017/08 - [MobilePay / Wikipedia (eng)](https://en.wikipedia.org/wiki/MobilePay)
+- 2017/08 - [MobilePay / Wikipedia (fin)](https://fi.wikipedia.org/wiki/MobilePay)
+- ----/-- - [The story of MobilePay - and a few facts](https://www.mobilepay.dk/da-dk/pages/the-story-in-english.aspx)
+- ----/-- - [Kaupankäynti on nopeampaa MobilePay MyShopilla](https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-myshop.aspx)
+- ----/-- - [MobilePay Point of Sale – tarjoa asiakkaallesi mahdollisuutta maksaa ostokset mobiililla](https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-point-of-sale.aspx <- maksutapakuvaus)
+- ----/-- - [MobilePay AppSwitch - Tarjoa uusi ja helppo maksuvaihtoehto verkko- ja sovelluskauppasi asiakkaille](https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-appswitch.aspx)
+- ----/-- - [MobilePay Online - mobiilimaksu verkkokaupallesi](https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-online.aspx)
 
-- mobilepayssa lienee e-kuitti
+# Unsorted
+
 - MobilePay MyShop
- - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-myshop.aspx
- - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-point-of-sale.aspx <- maksutapakuvaus
+- mobilepayssa lienee e-kuitti
 
 			Nopea tapa maksaa ostokset kassalla
 
@@ -335,19 +349,3 @@ http://www.hs.fi/paivanlehti/07032017/art-2000005116588.html
 					Asiakkaasi avaa MobilePay-sovelluksen älypuhelimessaan ja kirjautuu henkilökohtaisella tunnuksellaan. 
 					Asiakas skannaa kassajärjestelmässäsi olevan QR-koodin tai laittaa puhelimensa MobilePay-tunnistimen lähelle.. 
 					Asiakas hyväksyy maksun pyyhkäisemällä puhelimen kuvaruudulle näkyviin tulevasta nuolesta.
-
- - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-appswitch.aspx
- - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-online.aspx
- - https://www.mobilepay.fi/fi-fi/Yritykset/Pages/mobilepay-myshop.aspx
-
-https://stadel.dk/MobilePay_QR_kode_generator
-https://www.mobilepay.dk/da-dk/PDF/Pressemeddelelser/pm-eng-dagrofa-verifone-mobilepay-20170410.pdf
-
-https://www.youtube.com/watch?v=eeSyS9gmbYE
-https://www.youtube.com/watch?v=JENIMfJIzRo
-https://www.youtube.com/watch?v=VSQx5yTfYcg
-
-instore: http://publisher.qbrick.com/Embed.aspx?mcid=6D7FD2A7A6500CCE
-inapp: http://publisher.qbrick.com/Embed.aspx?mcid=E2B7A340A6500CCE
-pay in 4: http://publisher.qbrick.com/Embed.aspx?mcid=ACD4EDCCa6500CCE
-
