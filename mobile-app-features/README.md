@@ -54,5 +54,10 @@ A list of features from different mobile phone apps as a simple list that tries 
 46. Supports paying w/confirmation for high value transactions.
 47. White label: allows for custom logos in the application
 48. White label in eCommerce: allows for custom logos in eCommerce
-
-
+49. Aid to splitting bills between several parties, in-app amount counting/mathematics
+50. In-app send image feature
+51. Asking for loans from friends / requesting money.
+52. Facebook connection to get a friend to the app / addressbook for payments.
+53. Available to any customers of any (local/national) banks.
+54. Paying to a user using their user name / nick
+55. Change payment / send bill to a friend instead.
