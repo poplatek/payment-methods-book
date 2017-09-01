@@ -2,7 +2,13 @@
 
 ## About
 
-More business and markets related things will be written here in order to keep them out of the other pages of this book as they seem to creeping everywhere at the time of writing this.
+Business and markets related things will be written here in order to keep them out of the other pages of this book as they seem to creeping everywhere at the time of writing this.
+
+## Timeline
+
+![test](../nordic-mobile-timeline.png)
+
+[Source .dia](https://github.com/poplatek/payment-methods-book/blob/master/nordic-mobile-timeline.dia)
 
 ## TOC
 
@@ -32,7 +38,7 @@ It seems likely that Swish will stay in major control of the Swedish mobile paym
 
 Vipps seems similarly positioned in the Norwegian mobile payment markets as Swish is in Sweden as 108 banks co-own Vipps. It has a large market share in the country and has its own app that has some unique features like a chat and the ability to pay to non-Vipps customers via their mobile phone number.
 
-The owner of Vipps, DNB made a defensive move in spinning off Vipps and keeping the controlling (52%) ownership of the company while letting 107 other Norwegians banks acquire 48% of Vipps. 
+The owner of Vipps, DNB made a defensive move in spinning off Vipps and keeping the controlling (52%) ownership of the company while letting 107 other Norwegians banks acquire 48% of Vipps.
 
 Vipps used to be collaborative even before the spin-off like MobilePay and 40% of its user base comes from non-DNB banks.
 

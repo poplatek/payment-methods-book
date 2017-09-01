@@ -355,6 +355,7 @@ Nets has created a Dankort App for customers of banks that do not have a mobile 
 - 2017/06 - [Så nemt betaler du med Dankort app](https://www.youtube.com/watch?v=QGRo3I668hU)
 
 ## Links
+- ----/-- - [Dankort / Wikipedia](https://en.wikipedia.org/wiki/Dankort)
 - 2017/03 - [Nordic banks roll out first mobile payment services with support for Dankort](https://www.nfcworld.com/2017/03/28/351303/nordic-banks-roll-out-first-mobile-payment-services-with-support-for-dankort/)
 - 2015/11 - [Dankort goes mobile](https://www.nets.eu/Media-and-press/news/Pages/Dankort-goes-mobile.aspx)
 - 2017/08 - [HCE - Host Card Emulation / Wikipedia](https://en.wikipedia.org/wiki/Host_card_emulation)
