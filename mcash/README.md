@@ -12,6 +12,6 @@ mCash was started in 2014 and had 430 000 unique users in 2016.
 
 # Ref
 
-[mCASH stenges ned fra 01.09.2017](https://nyheter.mcash.no/press-releases/2017/6/30/mcash-stenges-ned-fra-01092017)
-[mCash (Wikipedia)](https://no.wikipedia.org/wiki/MCASH)
-[DNB spins off Vipps mobile payment service](https://www.finextra.com/newsarticle/30131/dnb-spins-off-vipps-mobile-payment-service)
+- [mCASH stenges ned fra 01.09.2017](https://nyheter.mcash.no/press-releases/2017/6/30/mcash-stenges-ned-fra-01092017)
+- [mCash (Wikipedia)](https://no.wikipedia.org/wiki/MCASH)
+- [DNB spins off Vipps mobile payment service](https://www.finextra.com/newsarticle/30131/dnb-spins-off-vipps-mobile-payment-service)
