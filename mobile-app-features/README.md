@@ -39,6 +39,7 @@ A list of features from different mobile phone apps as a simple list that tries 
 - In-app chat
 - Sending a message along w/the payment
 - Sends an SMS to a non-app user upon payment.
+- In-app send image feature
 
 ### Personalization
 
@@ -75,7 +76,7 @@ A list of features from different mobile phone apps as a simple list that tries 
 
 ### Identification methods
 
-- Login to app via a personal code (PIN) e.g.  or  digits
+- Login to app via a personal code (PIN) e.g. 4 to 6 digits
 - Login to app via a biometric code, e.g. a finger print
 - Confirming a high value payment w/a personal code
 - Confirming a high value payment w/a biometric code, e.g. finger print (iOS Touch Id, etc.)
@@ -90,7 +91,6 @@ A list of features from different mobile phone apps as a simple list that tries 
 
 - Can be used in eCommerce.
 - Can be embedded in other apps for the purposes of payment.
-- In-app send image feature
 
 ### Vendor lock-in
 
@@ -109,16 +109,20 @@ A list of features from different mobile phone apps as a simple list that tries 
 - Supports loyalty schemes.
 - Supports bonus schemes.
 - Automatically handles bonus programmes and sales.
-- Supports paying to charities.
+- Supports paying to charities w/possible tax deductions or bonus systems.
 
 ### Cancelling service
 
 - Supports cancelling the mobile app to stop fraud or to disable a lost or broken phone
 - Supports using the mobile app w/a new mobile device (easily)
 
+### Receipts
+
+- Supports digital receipts.
+- Has a storage of receipts e.g. one year back for tracking purchase warranties.
+
 ### Misc
 
 - Supports fundraising.
-- Offers digital receipts.
 - Can act as behalf of a standalone payment terminal.
 - Supports check in/check out payments (bag packing and transaction handling parallelization in b-n-m store)
