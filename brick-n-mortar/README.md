@@ -2,7 +2,7 @@
 
 ## About
 
-This page is for discussion and comparison of different ways of addressing mobile payments in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for [MobilePay](../mobilepay/README.md), [Vipps](../vipps/README.md), [Swish](../swish/README.md), [Dankort](../dankort/dankortmobil/README.md) mobile and so on. 
+This page is for discussion and comparison of different ways of addressing mobile payments in brick and mortar situations. The specific use cases can be found from the respective pages of this book that explain the technology for [MobilePay](../mobilepay/README.md), [Vipps](../vipps/README.md), [Swish](../swish/README.md), [Dankort](../dankort/dankortmobil/README.md) mobile and so on.
 
 Business and market level comparisons and considerations can be viewed from [here](../biz-lvl-comparison/README.md).  There is also a spreadsheet comparison about the different players [generally](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods) and as it pertains to the brick and mortar more [specifically](https://github.com/poplatek/payment-methods-book/blob/master/nordic-brick-and-mortar-comparison.ods).
 
@@ -27,7 +27,7 @@ The strenghts of these technologies is that they do support the payment via a mo
 
 1. Activate the mobile phone screen (from black screen)
 2. Unlock the screen, possibly via using a PIN-code, biometry or a swipe
-3. Start the application if it is not already running 
+3. Start the application if it is not already running
 4. Sign into the payment application via a PIN-code or perhaps a finger print.
 
 There seems to be methods of mitigating these problems and steps are being taken into making the purchase process less difficult on mobile devices. The newest solutions to this end seem to depend on starting the purchase from the locked mobile phone screen. There is a prototype video about this sort of payment method in the Internet (which may or may not be Dankort Mobil) and also at least MobilePay has come out w/a variant that actually brings this type of payment method to the market.
@@ -38,7 +38,7 @@ There are also advances being made in order to allow starting a payment from the
 
 In addition, the mobile phone payment methods are getting more and more supported by the other hardware. Where it was once necessary e.g. for a MobilePay solution to have an extra Bluetooth/QR-code reader, these features are now beginning to be supported by payment terminals that look classic and ordinary. This removes the hassle of the new mobile phone payment methods that is related to the need of developing, fielding and supporting extra devices and teaching staff and customers to use them.
 
-Overall, even if there is significant advancement in the mobile phone payment method market, there is still some progress to be made. That said, the newest setups w/locked screen payment variants used together w/the old school payment terminals that support mobile payment methods seem now to be ready for wide-scale use. They are getting over the threshold of being too cumbersome to use for comfort and then all that is left is the convenience of not needing to have your credit/debit card w/you when you leave the house. The electronic receipt is likely to become widely supported, as well.
+Overall, even if there is significant advancement in the mobile phone payment method market, there is still some progress to be made. That said, the newest setups w/locked screen payment variants used together w/the old school payment terminals that support mobile payment methods seem now to be ready for wide-scale use. They are getting over the threshold of being too cumbersome to use for comfort and then all that is left is the convenience of not needing to have your credit/debit card w/you when you leave the house. The electronic receipt is likely to become widely supported, as well. It makes handling warranties a lot easier than it used to be.
 
 The user bases are exploding, too, due to the honey that was given to the end-users: the apps are mostly free-of-cost to the end users and they allow for money transfers between friends as well as loaning to and from friends as well as the convenience of being able to split bills easily. These new features along with the mostly supported instant payments on the mobile devices can clearly be attractive to the end-users.
 
@@ -67,19 +67,19 @@ View the specifics about the use cases from here: [Danske MobilePay](../mobilepa
 
 Swish is Sweden and SEK only and supports instant payments to all participating banks as well as being able to show the payee's name before the payment is being made.
 
-To be able to do this, Swish uses a Swedish BankId application as an extra mobile app and in using two mobile apps instead of one, its use cases are more cumbersome than they need to be. 
+To be able to do this, Swish uses a Swedish BankId application as an extra mobile app and in using two mobile apps instead of one, its use cases are more cumbersome than they need to be.
 
 During registration you need to be eligible for both of these apps. Then, when in use, most things are done in the Swish app that then launches the Bank ID to do its part.
 
 After Bank ID processing has been done, the Swish app reappers again to take care of the rest of the transaction.
 
-This architecture hinders the usability of all of the available payment methods that Swish supports. 
+This architecture hinders the usability of all of the available payment methods that Swish supports.
 
 View the typical use case flows from the [Swish page](../swish/README.md)
 
 ## Vipps
 
-Vipps is the major Norwegian player with its own innovations. 
+Vipps is the major Norwegian player with its own innovations.
 
 Vipps app has a chat that lets the users converse with one another and supports a message that will be attached to a payment.
 
