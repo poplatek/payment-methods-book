@@ -73,6 +73,8 @@ A list of features from different mobile phone apps as a simple list that tries 
 - Paying w/o any verification up to a certain amount threshold during that day
 - Supports paying w/o confirmation for low value transactions.
 - Supports paying w/confirmation for high value transactions.
+- Day based limit
+- Month based limit
 
 ### Identification methods
 
@@ -94,7 +96,8 @@ A list of features from different mobile phone apps as a simple list that tries 
 
 ### Vendor lock-in
 
-- Available to any customers of any (local/national) banks.
+- Available for any customers of any (local/national) banks.
+- Available for any credit/debit cards.
 - White label: allows for custom logos in the application
 - White label in eCommerce: allows for custom logos in eCommerce
 
@@ -103,6 +106,10 @@ A list of features from different mobile phone apps as a simple list that tries 
 - Allows for paying from a bank account, directly or via a debit card.
 - Allows for paying via a credit card (as debt).
 - Asking for loans from friends / requesting money.
+
+### Money targets
+
+- Supports paying to a bank account.
 
 ### Bonus and loyalty
 
