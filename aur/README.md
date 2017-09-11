@@ -23,9 +23,15 @@ Aur seems to support Android and iPhone.
 * Supports paying to a non-app user.
 * Supports automatically sending an SMS about payment to non-app user.
 * Supports returning the money to sender if non-app user does not install app in 3 days.
+* Supports charging: sending a payment to be paid by the receiving party.
+* Supports personal image/avatar.
+* PIN-code based.
 
 ## Strengths
 ## Weaknesses
+
+"The Aur applet may under no circumstances be used to collect money in the name of charity or for any commercial purpose, for the purchase and sale of goods or services or for other forms of professional activity."
+
 ## Requirements
 
 # Use cases
