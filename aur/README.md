@@ -11,6 +11,19 @@ Aur seems to support Android and iPhone.
 
 # Features
 ## List of Features
+
+* Pay via using mobile phone number as target account
+* Open to all bank and mobile operator users
+* Probably support splitting bills
+* Payment taken out of debit or credit card.
+* Payment paid to bank account.
+* Hard daily limit of c. 785 EUR
+* Hard monthly limit of c. 1570 EUR
+* Supports changing credit/debit card Aur uses for paying
+* Supports paying to a non-app user.
+* Supports automatically sending an SMS about payment to non-app user.
+* Supports returning the money to sender if non-app user does not install app in 3 days.
+
 ## Strengths
 ## Weaknesses
 ## Requirements
@@ -31,16 +44,44 @@ Aur seems to support Android and iPhone.
 ## Finger Print support
 ## App
 ### Downloads
+
+* [Android](https://play.google.com/store/apps/details?id=stokkur.figo.android)
+* [iOS](https://itunes.apple.com/us/app/aur/id1015018499)
+
 ### Ratings
+
+* Android: 4.1
+* iOS: Not enough ratings
+
 ### OS Support
+
+* Android
+* iOS
+
 ### SDK
 ### Language
 ## eCommerce
 ## Brick and Mortar
 ## Security
 
+* Card information not stored to Aur but to Borgun instead.
+
 # Business
 ## Pricing
+
+Paying from debit is free of cost, credit payments have dues, receiving a payment is free.
+
+When paying using a credit card, Aur comission is as follows:
+
+Amount:  00.00 -  39.28 EUR, comission:  0.77 EUR (7700% - 2.00%)
+Amount:  39.28 -  78.55 EUR, comission:  1.56 EUR (3.97% - 1.99%)
+Amount:  78.55 - 117.77 EUR, comission   2.35 EUR (2.99% - 2.00%)
+Amount: 117.77 - 157.02 EUR, comission:  3.13 EUR (2.66% - 1.99%)
+Amount: 157.04 - 196.28 EUR, comission:  3.92 EUR (2.50% - 2.00%)
+Amount: 196.28 - 392.56 EUR, comission:  7.84 EUR (3.99% - 2.00%)
+Amount: 392.57 - 588.84 EUR, comission: 11.78 EUR (3.00% - 2.00%)
+Amount: 588.84 - 785.12 EUR, comission: 15.71 EUR (2.67% - 2.00%)
+
 ## Size/Expansion
 ## Future Goals & Plans
 ## Collaboration
