@@ -21,6 +21,7 @@ A list of features from different mobile phone apps as a simple list that tries 
 - Supports purchases.
 - Supports reserve payments.
 - Supports refunds.
+* Supports charging: sending a payment to be paid by the receiving party.
 
 ### Mobile payment shortcuts
 
@@ -110,6 +111,11 @@ A list of features from different mobile phone apps as a simple list that tries 
 ### Money targets
 
 - Supports paying to a bank account.
+
+### Changing money sources/targets
+
+- Supports changing the (receiving) bank account the app is using
+- Supports changing changing payment source, e.g. allows you to change the credit/debit card the app uses for paying the recipient.
 
 ### Bonus and loyalty
 
