@@ -13,6 +13,7 @@ Aur seems to support Android and iPhone.
 ## List of Features
 
 * Pay via using mobile phone number as target account
+* Instant payments
 * Open to all bank and mobile operator users
 * Probably support splitting bills
 * Payment taken out of debit or credit card.
@@ -37,6 +38,13 @@ Aur seems to support Android and iPhone.
 # Use cases
 ## General/Common/About
 ## Registration Process
+
+Requirements:
+ - Icelandic ID
+ - Icelandic mobile phone number
+ - debit or credit card
+ - bank account
+
 ## Case N
 ### Device Setup
 ### Preconditions
