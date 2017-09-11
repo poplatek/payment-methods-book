@@ -65,8 +65,12 @@ A list of features from different mobile phone apps as a simple list that tries 
 
 #### Search
 
-- Location sensing and ability to offer nearby companies to the app as payment targets
 - Search for companies, people, ... in app to pick them as payment targets
+
+#### Location
+
+- Location sensing and ability to offer nearby companies to the app as payment targets
+- Can use the app even if abroad
 
 ### Payment thresholds
 
@@ -112,10 +116,16 @@ A list of features from different mobile phone apps as a simple list that tries 
 
 - Supports paying to a bank account.
 
-### Changing money sources/targets
+### Changing App Information
 
 - Supports changing the (receiving) bank account the app is using
 - Supports changing changing payment source, e.g. allows you to change the credit/debit card the app uses for paying the recipient.
+
+### Cancelling service
+
+- Supports cancelling the mobile app to stop fraud or to disable a lost or broken phone
+- Supports using the mobile app w/a new mobile device (easily)
+- Supports changing the mobile phone number
 
 ### Bonus and loyalty
 
@@ -123,11 +133,6 @@ A list of features from different mobile phone apps as a simple list that tries 
 - Supports bonus schemes.
 - Automatically handles bonus programmes and sales.
 - Supports paying to charities w/possible tax deductions or bonus systems.
-
-### Cancelling service
-
-- Supports cancelling the mobile app to stop fraud or to disable a lost or broken phone
-- Supports using the mobile app w/a new mobile device (easily)
 
 ### Receipts
 
